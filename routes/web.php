@@ -1,10 +1,10 @@
 <?php
 
-    Route::get('/','nejahController@home');
+    Route::get('/','nejahController@home')->name('home');
     Route::get('/login', 'LoginController@showLoginForm')->name('login');
     Route::post('/login', 'LoginController@login');
     Route::get('/index', 'DashboardController@index')->name('index');
-    Route::get('/home', 'HomeController@index')->name('home');
+    Route::get('/home', 'HomeController@index');
     Route::post('/logout', 'LoginController@logout')->name('logout');
 
     Route::post('users', 'operator\UsersController@store')->name('users.store');

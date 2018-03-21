@@ -45,7 +45,7 @@
                             <div class="form-group">
                                 <button type="submit" class="btn btn-lg btn-success btn-block">ورود</button>
                             </div>
-                            
+                            <a style="" href="{{route('home')}}">خانه</a>
                         </form>
                     </div>
                 </div>
