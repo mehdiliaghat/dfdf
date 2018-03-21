@@ -1,6 +1,6 @@
 <?php
 
-
+    Route::get('/','nejahController@home');
     Route::get('/login', 'LoginController@showLoginForm')->name('login');
     Route::post('/login', 'LoginController@login');
     Route::get('/index', 'DashboardController@index')->name('index');
