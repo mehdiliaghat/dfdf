@@ -34,7 +34,10 @@
       License: https://bootstrapmade.com/license/
     ======================================================= -->
 
+
+
 </head>
+
 
 
 <body>
@@ -66,7 +69,7 @@
                     </ul>
                 </li>
                 <li><a href="#contact">Contact</a></li>
-                <li class="menu-active"><a href="{{route('login')}}">خانه</a></li>
+                <li class="menu-active"><a href="#">خانه</a></li>
             </ul>
         </nav><!-- #nav-menu-container -->
     </div>
@@ -89,7 +92,7 @@
                         <div class="carousel-content">
                             <h2></h2>
                             <p></p>
-                            <a href="#featured-services" class="btn-get-started scrollto">ورود</a>
+                            <a href="{{route('login')}}" class="btn-get-started scrollto">ورود</a>
                         </div>
                     </div>
                 </div>
@@ -100,7 +103,7 @@
                         <div class="carousel-content">
                             <h2></h2>
                             <p></p>
-                            <a href="#featured-services" class="btn-get-started scrollto"> ورود</a>
+                            <a href="{{route('login')}}" class="btn-get-started scrollto"> ورود</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +114,7 @@
                         <div class="carousel-content">
                             <h2></h2>
                             <p></p>
-                            <a href="#featured-services" class="btn-get-started scrollto"> ورود  </a>
+                            <a href="{{route('login')}}" class="btn-get-started scrollto"> ورود  </a>
                         </div>
                     </div>
                 </div>
@@ -122,7 +125,7 @@
                         <div class="carousel-content">
                             <h2></h2>
                             <p></p>
-                            <a href="#featured-services" class="btn-get-started scrollto">ورود</a>
+                            <a href="{{route('login')}}" class="btn-get-started scrollto">ورود</a>
                         </div>
                     </div>
                 </div>
