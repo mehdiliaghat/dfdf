@@ -165,22 +165,28 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-4 box">
-                    <i class="ion-ios-bookmarks-outline"></i>
-                    <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
-                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                <div class="col-lg-4 box" style="text-align: right">
+                    <i class="ion-ios-bookmarks-outline" ></i>
+                    <h4 class="title"><a href="#">گرافیک رایانه ای</a></h4>
+                    <p class="description">واژه CG مخفف عبارت Computer Graphics  به معنای گرافیک کامپیوتری است و اگر بخواهیم به صورتی ساده و البته کوتاه آن را تعریف کنیم :
+                        «دانش مرتبط با تصویر و مشتقات آن در رایانه است»
+                        دانش گرافیک رایانه ای در حوزه آکادمیک به صورت یک مسیر رفت و برگشت دو طرفه در نظر گرفته می شود، بخشی شامل رندر و بخشی شامل پردازش تصاویر رایانه ای .
+                    </p>
                 </div>
 
-                <div class="col-lg-4 box box-bg">
+                <div class="col-lg-4 box box-bg" style="text-align: right" >
                     <i class="ion-ios-stopwatch-outline"></i>
-                    <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                    <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                    <h4 class="title"><a href="">بازی ویدئویی ظاهری سرگرم کننده</a></h4>
+                    <p class="description">بازی رایانه ای را می توان از ابعاد مختلف نظیر : فن، هنر و محتوا روایت کرد و مورد مداقه قرار داد اما در کشور ما به ویژه پس از راه اندازی بنیاد ملی بازی های رایانه ای هر سه حوزه هنر، محتوا و فن به اندازه خود مورد کنکاش و بررسی قرار گرفته اند اما فناوری عرصه ای مغفول است.
+                        فناوری های مرتبط با بازی های رایانه ای تقریبا تمامی حوزه های مرتبط با تصویر سازی را در بر می گیرد که از حوزه نظامی تا شبیه سازی های علمی را پوشش می دهند و متاسفانه به دلیل نگاه فن محور، در کشور ما از آن غفلت شده است.
+                        اگر فناوری های مرتبط با بازی رایانه ای را در قالب یک دانش، طبقه بندی کنیم باید از گرافیک رایانه ای نام ببریم.
+                    </p>
                 </div>
 
-                <div class="col-lg-4 box">
+                <div class="col-lg-4 box" style="text-align: right">
                     <i class="ion-ios-heart-outline"></i>
-                    <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                    <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    <h4 class="title"><a href="">فن یا فناوری</a></h4>
+                    <p class="description">فناوری عبارت است از دانش بنیادی سازنده یک ابزار که آن ابزار به محصول منتج می شود و فن عبارت است از طریقه به کارگیری یک ابزار برای حصول بهترین نتیجه، به عنوان مثال منحنی های Bezier ، الگوریتم کتمال کلارک و یا الگوریتم های تقسیم بندی سطوح در مولفه های راس، یال و چند وجهی همگی فناوری هایی هستند که ذیل مدل سازی تعریف می شوند که ممکن است، اتفاقا در نرم افرار مشهوری همچون تری دی مکس و مایا نیز به کار گرفته شوند و یک نفر بدون اطلاع از این فناوری ها به بهترین شکل ممکن از نرم افزار Maya بهره ببرد و خلاقانه ترین مدل ها را نیز تولید کند.</p>
                 </div>
 
             </div>
@@ -195,7 +201,11 @@
 
             <header class="section-header">
                 <h3>معرفی دوره ها</h3>
-                <p>توضیخات...................................................................</p>
+                <p> در بسیاری از حوزه های مرتبط با فضای مجازی وابستگی یکی از آفاتی است که مانع از ایجاد اشتغال و استفاده بهینه فرهنگی از فضای مجازی می شود و مجموعه های داخلی را به مصرف کننده هایی صرف تبدیل می کند که هیچ گونه فضایی برای نقش آفرینی در اختیار نداشته و تنها باید تابع شرایط باشند و فارغ از اشتغال و فرهنگ، وابستگی چالش های امنیتی متعددی نیز به دنبال خواهد داشت، از این روی بومی سازی می بایست یکی از اهداف کلان مجموعه های مرتبط با فضای مجازی باشد تا اولا فعالیت ها از گزند تحریم و تاثیرگذاری عامل خارجی در امان بمانند.
+                    ثانیا امکان توسعه بومی مبتنی بر مولفه ها و نیاز های داخلی مربوط به هر یک از این حوزه ها فراهم شود.
+                    در ضروریات بومی سازی و طراحی یک پلتفرم و به عبارت دیگر یک زمین بازی استدلال فراوان است و امری بدیهی به نظر می رسد اما مهم تر از چرایی ، چگونگی بومی سازی است.
+                    بومی سازی علمی منجر به اشتغال و تولید بر چهار مولفه اساسی مقابل استوار است که به صورت کوتاه به هر یک می پردازیم.
+                </p>
             </header>
 
             <div class="row about-cols">
@@ -206,9 +216,11 @@
                             <img src="img/about-mission.jpg" alt="" class="img-fluid">
                             <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                         </div>
-                        <h2 class="title"><a href="#">Our Mission</a></h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <h2 class="title"> کتاب </h2>
+                        <p style="text-align: right">
+
+                            کتاب و مرجع علمی، در هر مجموعه ای یکی از تاثیرگذارترین و اساسی ترین بنیادهای شکل دهنده ساز و کارهای علمی است، در حوزه بومی سازی نیز تامین مراجع علمی کافی برای تدریس و یادگیری عمیق یکی از اصلی ترین اولویت هاست اما این مرجع لزوما کتاب است؟ در حالی که بسیاری بر این اعتقادند که حوزه فضای مجازی با سرعتی باورنکردنی و غیرقابل کنترل در حال تغییر است، از این رو مقوله ای ایستا به نام کتاب که از زمان تصمیم گیری برای ترجمه یا تالیف تا زمان چاپ و انتشار نهایی پروسه ای زمان بر را طی می کند، دیگر در این حوزه کارکردی ندارد
+
                         </p>
                     </div>
                 </div>
@@ -219,9 +231,9 @@
                             <img src="img/about-plan.jpg" alt="" class="img-fluid">
                             <div class="icon"><i class="ion-ios-list-outline"></i></div>
                         </div>
-                        <h2 class="title"><a href="#">Our Plan</a></h2>
-                        <p>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        <h2 class="title"> ابزار  </h2>
+                        <p style="text-align: right">
+                            منظور از ابزار لزوما ساخت محیط ویژه توسعه یک محصول نیست بلکه توسعه یک بستر کد باز برای آغاز، رشد و نمو نیروی تازه کار و نیمه حرفه ای است که علاوه بر رشد این نیروها و زمینه سازی برای تربیت نیروی متخصص شرایطی را برای پیشروی در حوزه گرافیک رایانه ای نیز فراهم می کند و از این ابزار می توان خروجی های متعدد گرفت و از آن مهمتر نیروی انسانی در بستر کد تجربه پیدا می کند و از سوی دیگر کد به مرور پیشرفت می کند و تبدیل به یک محصول قابل اعتنا می شود که در گذر زمان توسعه یافته است.
                         </p>
                     </div>
                 </div>
@@ -232,9 +244,9 @@
                             <img src="img/about-vision.jpg" alt="" class="img-fluid">
                             <div class="icon"><i class="ion-ios-eye-outline"></i></div>
                         </div>
-                        <h2 class="title"><a href="#">Our Vision</a></h2>
-                        <p>
-                            Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                        <h2 class="title"> ادبیات و راهبرد </h2>
+                        <p style="text-align: right">
+                            در کنار سه گانه مطرح شده یعنی : ابزار، نیروی انسانی و مرجع علمی، نقشه راه عنصری بسیار تاثیرگذار و حلقه مفقوده و متصل کننده این سه مولفه به یکدیگر است، راهبرد نقشه راه کلی را تبیین می کند و ادبیات کارکردها و نقش آفرینی هر یک از محصولات در زندگی را مشخص می کند که بدون این دو عنصر هیچ یک از سه گانه مطرح شده ابزار، مرجع علمی و نیروی انسانی کمترین فایده ای نخواهند داشت.
                         </p>
                     </div>
                 </div>
