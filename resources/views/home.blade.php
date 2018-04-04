@@ -60,15 +60,18 @@
             <ul class="nav-menu">
                 <li><a href="#portfolio">ارتباط باما</a></li>
                 <li><a href="#team">زمینه های کاربردی اشتغال</a></li>
-                <li class="menu-has-children"><a href="">Drop Down</a>
+                <li class="menu-has-children"><a href="">فناوری ها</a>
                     <ul>
-                        <li><a href="#">Drop Down 1</a></li>
-                        <li><a href="#">Drop Down 3</a></li>
-                        <li><a href="#">Drop Down 4</a></li>
-                        <li><a href="#">Drop Down 5</a></li>
+                        <li><a href="#">اسکن و پرینت سه بعدی</a></li>
+                        <li><a href="#">برودکست و برودباند</a></li>
+                        <li><a href="#">واقعیت مجازی</a></li>
+                        <li><a href="#">واقعیت افزوده</a></li>
+                        <li><a href="#"> بازی های جدی</a></li>
+                        <li><a href="#"> وب سه بعدی </a></li>
                     </ul>
                 </li>
                 <li><a href="#contact">معرفی دوره ها</a></li>
+                <li><a href="{{route('login')}}"> ورود</a></li>
                 <li class="menu-active"><a href="#">خانه</a></li>
             </ul>
         </nav><!-- #nav-menu-container -->
@@ -92,7 +95,6 @@
                         <div class="carousel-content">
                             <h2></h2>
                             <p></p>
-                            <a href="{{route('login')}}" class="btn-get-started scrollto">ورود</a>
                         </div>
                     </div>
                 </div>
@@ -103,7 +105,6 @@
                         <div class="carousel-content">
                             <h2></h2>
                             <p></p>
-                            <a href="{{route('login')}}" class="btn-get-started scrollto"> ورود</a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +115,6 @@
                         <div class="carousel-content">
                             <h2></h2>
                             <p></p>
-                            <a href="{{route('login')}}" class="btn-get-started scrollto"> ورود  </a>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,6 @@
                         <div class="carousel-content">
                             <h2></h2>
                             <p></p>
-                            <a href="{{route('login')}}" class="btn-get-started scrollto">ورود</a>
                         </div>
                     </div>
                 </div>
@@ -280,17 +279,21 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-card">Card</li>
-                        <li data-filter=".filter-web">Web</li>
+                        <li data-filter=".filter-analysis">آنالیز و تحلیل</li>
+                        <li data-filter=".filter-brudband">برودباند</li>
+                        <li data-filter=".filter-medical">پزشکی</li>
+                        <li data-filter=".filter-fun">سرگرمی</li>
+                        <li data-filter=".filter-military">نظامی</li>
+                        <li data-filter=".filter-design">طراحی و تولید</li>
+                        <li data-filter=".filter-training">آموزش</li>
+                        <li data-filter="*" class="filter-active">همه</li>
                     </ul>
                 </div>
             </div>
 
             <div class="row portfolio-container">
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-analysis wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
                             <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
@@ -299,13 +302,41 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">App 1</a></h4>
-                            <p>App</p>
+                            <h4><a href="#">مدل سازی ریاضی</a></h4>
+                            <p>آنالیز و تحلیل</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-analysis wow fadeInUp">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> هواشناسی</a></h4>
+                            <p>آنالیز و تحلیل</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-analysis wow fadeInUp">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#">  علوم پایه</a></h4>
+                            <p>آنالیز و تحلیل</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-wrap">
                         <figure>
                             <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
@@ -314,13 +345,83 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">Web 3</a></h4>
-                            <p>Web</p>
+                            <h4><a href="#">استدیو مجازی</a></h4>
+                            <p>برودباند</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> تدوین</a></h4>
+                            <p>برودباند</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> تولید بلادرنگ</a></h4>
+                            <p>برودباند</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> خدمات ورزشی</a></h4>
+                            <p>برودباند</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#">3d , Imax </a></h4>
+                            <p>برودباند</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> فیلم برداری های ویژه</a></h4>
+                            <p>برودباند</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-medical wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <figure>
                             <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
@@ -329,13 +430,55 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">App 2</a></h4>
-                            <p>App</p>
+                            <h4><a href="#">انواع اسکن ها</a></h4>
+                            <p>پزشکی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-medical wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> تجهیزات و پنل های پزشکی</a></h4>
+                            <p>پزشکی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-medical wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> عمل های از راه دور</a></h4>
+                            <p>پزشکی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-medical wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> درمان های حرکتی</a></h4>
+                            <p>پزشکی</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
                             <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
@@ -344,28 +487,83 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">Card 2</a></h4>
-                            <p>Card</p>
+                            <h4><a href="#">بازی</a></h4>
+                            <p>سرگرمی</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
-                            <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
+                            <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">Web 2</a></h4>
-                            <p>Web</p>
+                            <h4><a href="#"> انیمیشن</a></h4>
+                            <p>سرگرمی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> واقعیت مجازی</a></h4>
+                            <p>سرگرمی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> واقعیت افزوده</a></h4>
+                            <p>سرگرمی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> جلوه های ویژه</a></h4>
+                            <p>سرگرمی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> اسباب بازی</a></h4>
+                            <p>سرگرمی</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-lg-4 col-md-6 portfolio-item  filter-military wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <figure>
                             <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
@@ -374,13 +572,69 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">App 3</a></h4>
-                            <p>App</p>
+                            <h4><a href="#">شبیه سازی</a></h4>
+                            <p>نظامی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item  filter-military wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> سامانه های نقطه زن</a></h4>
+                            <p>نظامی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item  filter-military wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> سامانه های هویتی ، امنیتی</a></h4>
+                            <p>نظامی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item  filter-military wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> سامانه های رصد</a></h4>
+                            <p>نظامی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item  filter-military wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> نقشه برداری</a></h4>
+                            <p>نظامی</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
                             <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
@@ -389,13 +643,56 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">Card 1</a></h4>
-                            <p>Card</p>
+                            <h4><a href="#">اسکن سه بعدی</a></h4>
+                            <p>طراحی و تولید</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> پرینت سه بعدی</a></h4>
+                            <p>طراحی و تولید</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> CAD</a></h4>
+                            <p>طراحی و تولید</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+
+                        <div class="portfolio-info">
+                            <h4><a href="#"> شبیه سازی های صنعتی</a></h4>
+                            <p>طراحی و تولید</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-training wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-wrap">
                         <figure>
                             <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
@@ -404,27 +701,39 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">Card 3</a></h4>
-                            <p>Card</p>
+                            <h4><a href="#">بر بستر وب</a></h4>
+                            <p>آموزش</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-training wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
-                            <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
+                            <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">Web 1</a></h4>
-                            <p>Web</p>
+                            <h4><a href="#"> بر بستر رایانه</a></h4>
+                            <p>آموزش</p>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-training wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
+                            <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                            <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
 
+                        <div class="portfolio-info">
+                            <h4><a href="#"> بربستر گچت ها</a></h4>
+                            <p>آموزش</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
