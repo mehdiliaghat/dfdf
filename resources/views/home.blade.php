@@ -58,8 +58,8 @@
 
         <nav id="nav-menu-container">
             <ul class="nav-menu">
-                <li><a href="#portfolio">ارتباط باما</a></li>
-                <li><a href="#team">زمینه های کاربردی اشتغال</a></li>
+                <li><a href="#contact">ارتباط باما</a></li>
+                <li><a href="#portfolio">زمینه های کاربردی اشتغال</a></li>
                 <li class="menu-has-children"><a href="">فناوری ها</a>
                     <ul>
                         <li><a href="#">اسکن و پرینت سه بعدی</a></li>
@@ -70,7 +70,7 @@
                         <li><a href="#"> وب سه بعدی </a></li>
                     </ul>
                 </li>
-                <li><a href="#contact">معرفی دوره ها</a></li>
+                <li><a href="#about">معرفی دوره ها</a></li>
                 <li><a href="{{route('login')}}"> ورود</a></li>
                 <li class="menu-active"><a href="#">خانه</a></li>
             </ul>
