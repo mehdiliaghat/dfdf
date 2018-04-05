@@ -60,7 +60,7 @@
             <ul class="nav-menu">
                 <li><a href="#contact">ارتباط باما</a></li>
                 <li><a href="#portfolio">زمینه های کاربردی اشتغال</a></li>
-                <li class="menu-has-children"><a href="">فناوری ها</a>
+                <li class="menu-has-children"><a href="#">فناوری ها</a>
                     <ul>
                         <li><a href="#">اسکن و پرینت سه بعدی</a></li>
                         <li><a href="#">برودکست و برودباند</a></li>
@@ -261,9 +261,8 @@
     ============================-->
     <section id="call-to-action" class="wow fadeIn">
         <div class="container text-center">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a class="cta-btn" href="#">Call To Action</a>
+            <h3>گرافیک رایانه ای</h3>
+            <p>گرافیک رایانه ای علم مبتنی بر تصاویر است که به تولید یا تحلیل تصاویر رایانه ای می پردازد، این علم در بیش از 13 حوزه صنعتی و علمی مشخص کارکرد ویژه ای دارد که هر یک می توانند زمینه تولید محصولات و ایجاد اشتغال پایدار را برای دانش پژوه فراهم کنند.</p>
         </div>
     </section><!-- #call-to-action -->
     <!--==========================
@@ -296,7 +295,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-analysis wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/analysis_Mathematical_modeling.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -310,7 +309,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-analysis wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/analysis_weather.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -324,7 +323,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-analysis wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/analysis_Basic_sciences.png" class="img-fluid" alt="">
                             <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -715,7 +714,7 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#"> بر بستر رایانه</a></h4>
+                            <h4><a href="#"> بر بستر موبایل </a></h4>
                             <p>آموزش</p>
                         </div>
                     </div>
@@ -729,7 +728,7 @@
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#"> بربستر گچت ها</a></h4>
+                            <h4><a href="#"> بربستر گجت </a></h4>
                             <p>آموزش</p>
                         </div>
                     </div>
