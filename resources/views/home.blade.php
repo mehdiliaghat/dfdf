@@ -740,9 +740,7 @@
 
 
     <!--==========================
-      Contact Section
-    ============================-->
-    <section id="contact" class="section-bg wow fadeInUp">
+      Contact Section  <section id="contact" class="section-bg wow fadeInUp">
         <div class="container">
 
             <div class="section-header">
@@ -806,6 +804,8 @@
 
         </div>
     </section><!-- #contact -->
+     
+
 
 </main>
 
