@@ -338,7 +338,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/brudband_The_Virtual_Studio.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -352,7 +352,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/brudband_Editor.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -366,7 +366,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/brudband_Proactive_production.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -380,7 +380,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/brudband_Sports_services.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -394,7 +394,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/brudband_imax_3d.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -408,7 +408,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/brudband_Special_video.png" class="img-fluid" alt="">
                             <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -423,13 +423,13 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-medical wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/medical_scan.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
 
                         <div class="portfolio-info">
-                            <h4><a href="#">انواع اسکن ها</a></h4>
+                            <h4><a href="#">اسکن پزشکی</a></h4>
                             <p>پزشکی</p>
                         </div>
                     </div>
@@ -437,7 +437,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-medical wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/medical_panel.png" class="img-fluid" alt="">
                             <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -451,7 +451,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-medical wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/medical_Remote_operation.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -465,7 +465,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-medical wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/medical_Movement_therapy.png" class="img-fluid" alt="">
                             <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -480,7 +480,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/fun_game.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -494,7 +494,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/fun_animation.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -508,7 +508,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/fun_virtual_reality.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -522,7 +522,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/fun_augmented_reality.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -536,7 +536,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/fun_special_effects.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -550,7 +550,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/fun_toys.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -565,7 +565,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item  filter-military wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/military_simulation.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -579,7 +579,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item  filter-military wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/military_point_system.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -593,7 +593,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item  filter-military wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/miliary_Security_identity.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -607,7 +607,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item  filter-military wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/military_observation.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -621,7 +621,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item  filter-military wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/military_mapping.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -636,7 +636,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/design_3d_scan.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -650,7 +650,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/design_3D-printing.jpeg" class="img-fluid" alt="">
                             <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -664,7 +664,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/design_CAD.png" class="img-fluid" alt="">
                             <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -694,7 +694,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-training wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/training_WEB.jpeg" class="img-fluid" alt="">
                             <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -708,7 +708,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-training wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/training_mobile-learning.jpg" class="img-fluid" alt="">
                             <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
@@ -722,7 +722,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-training wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-wrap">
                         <figure>
-                            <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/training_vivo-smartwatch.jpeg" class="img-fluid" alt="">
                             <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                             <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                         </figure>
