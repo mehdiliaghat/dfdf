@@ -10,5 +10,14 @@ class nejahController extends Controller
     {
         return view('home');
     }
+    public function homeScan3d()
+    {
+        return view('homeScan3d');
+    }
+    public function homeContactUs()
+    {
+        return view('homeContactUs');
+
+    }
 
 }

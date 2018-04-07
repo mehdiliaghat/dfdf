@@ -1,6 +1,8 @@
 <?php
 
     Route::get('/','nejahController@home')->name('home');
+    Route::get('/home/scan3d','nejahController@homeScan3d')->name('home.scan3d');
+    Route::get('/home/contactUs','nejahController@homeContactUs')->name('home.contactUs');
     Route::get('/login', 'LoginController@showLoginForm')->name('login');
     Route::post('/login', 'LoginController@login');
     Route::get('/index', 'DashboardController@index')->name('index');
