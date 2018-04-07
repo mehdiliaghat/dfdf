@@ -87,12 +87,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo {
-  float: left;
+  float: right;
 }
 
 @media (min-width: 1024px) {
   #header #logo {
-    padding-left: 60px;
+    padding-left: 0;
   }
 }
 
@@ -1310,18 +1310,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
 #footer .footer-top .footer-info h3 {
   font-size: 34px;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
   padding: 2px 0 2px 10px;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   border-left: 4px solid #18d26e;
+  float: right;
 }
 
 #footer .footer-top .footer-info p {
@@ -1330,6 +1331,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
   color: #eee;
+  float: right;
 }
 
 #footer .footer-top .social-links a {

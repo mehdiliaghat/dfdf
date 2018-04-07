@@ -816,12 +816,6 @@
     <div class="footer-top">
         <div class="container">
             <div class="row">
-
-                <div class="col-lg-4 col-md-6 footer-info">
-                    <h3>NEJAH</h3>
-                    <p style="text-align: right"> معرفی سامانه</p>
-                </div>
-
                 <div class="col-lg-4 col-md-6 footer-links" style="text-align: right">
                     <h4>لینک های پرکاربرد</h4>
                     <ul >
@@ -845,9 +839,11 @@
                     <div class="social-links">
                         <a href="#" class="twitter"><i class="fa fa-telegram"></i></a>
                         <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-
                     </div>
-
+                </div>
+                <div class="col-lg-4 col-md-6 footer-info">
+                    <h3>NEJAH</h3>
+                    <p style="text-align: right"> معرفی سامانه: سامانه نجاه که مخفف نظام جامع آموزش هماهنگ است </p>
                 </div>
             </div>
         </div>
