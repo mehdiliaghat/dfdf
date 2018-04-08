@@ -72,7 +72,7 @@
                 </li>
                 <li><a href="#about">معرفی دوره ها</a></li>
                 <li><a href="{{route('login')}}"> ورود</a></li>
-                <li class="menu-active"><a href="#">خانه</a></li>
+                <li class="menu-active"><a href="{{route('home')}}">خانه</a></li>
             </ul>
         </nav><!-- #nav-menu-container -->
     </div>

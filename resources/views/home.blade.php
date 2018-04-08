@@ -97,8 +97,7 @@
                         <i class="ion-ios-stopwatch-outline"></i>
                         <h4 class="title"><a href="">بازی ویدئویی ظاهری سرگرم کننده</a></h4>
                         <p class="description">بازی رایانه ای را می توان از ابعاد مختلف نظیر : فن، هنر و محتوا روایت کرد و مورد مداقه قرار داد اما در کشور ما به ویژه پس از راه اندازی بنیاد ملی بازی های رایانه ای هر سه حوزه هنر، محتوا و فن به اندازه خود مورد کنکاش و بررسی قرار گرفته اند اما فناوری عرصه ای مغفول است.
-                            فناوری های مرتبط با بازی های رایانه ای تقریبا تمامی حوزه های مرتبط با تصویر سازی را در بر می گیرد که از حوزه نظامی تا شبیه سازی های علمی را پوشش می دهند و متاسفانه به دلیل نگاه فن محور، در کشور ما از آن غفلت شده است.
-                            اگر فناوری های مرتبط با بازی رایانه ای را در قالب یک دانش، طبقه بندی کنیم باید از گرافیک رایانه ای نام ببریم.
+                            فناوری های مرتبط با بازی های رایانه ای تقریبا تمامی حوزه های مرتبط با تصویر سازی را در بر می گیرد که از حوزه نظامی تا شبیه سازی های علمی را پوشش می دهند و متاسفانه به دلیل نگاه فن محور، در کشور ما از آن غفلت شده است. اگر فناوری های مرتبط با بازی رایانه ای را در قالب یک دانش، طبقه بندی کنیم باید از گرافیک رایانه ای نام ببریم.
                         </p>
                     </div>
 
@@ -136,7 +135,7 @@
                                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                             </div>
                             <h2 class="title"> کتاب </h2>
-                            <p style="text-align: right">
+                            <p>
 
                                 کتاب و مرجع علمی، در هر مجموعه ای یکی از تاثیرگذارترین و اساسی ترین بنیادهای شکل دهنده ساز و کارهای علمی است، در حوزه بومی سازی نیز تامین مراجع علمی کافی برای تدریس و یادگیری عمیق یکی از اصلی ترین اولویت هاست اما این مرجع لزوما کتاب است؟ در حالی که بسیاری بر این اعتقادند که حوزه فضای مجازی با سرعتی باورنکردنی و غیرقابل کنترل در حال تغییر است، از این رو مقوله ای ایستا به نام کتاب که از زمان تصمیم گیری برای ترجمه یا تالیف تا زمان چاپ و انتشار نهایی پروسه ای زمان بر را طی می کند، دیگر در این حوزه کارکردی ندارد
 
@@ -151,8 +150,14 @@
                                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
                             </div>
                             <h2 class="title"> ابزار  </h2>
-                            <p style="text-align: right">
-                                منظور از ابزار لزوما ساخت محیط ویژه توسعه یک محصول نیست بلکه توسعه یک بستر کد باز برای آغاز، رشد و نمو نیروی تازه کار و نیمه حرفه ای است که علاوه بر رشد این نیروها و زمینه سازی برای تربیت نیروی متخصص شرایطی را برای پیشروی در حوزه گرافیک رایانه ای نیز فراهم می کند و از این ابزار می توان خروجی های متعدد گرفت و از آن مهمتر نیروی انسانی در بستر کد تجربه پیدا می کند و از سوی دیگر کد به مرور پیشرفت می کند و تبدیل به یک محصول قابل اعتنا می شود که در گذر زمان توسعه یافته است.
+                            <p>
+                                منظور از ابزار لزوما ساخت محیط ویژه توسعه یک محصول نیست بلکه توسعه یک بستر کد باز
+                                برای آغاز، رشد و نمو نیروی تازه کار و نیمه حرفه ای است که علاوه بر رشد این نیروها
+                                و زمینه سازی برای تربیت نیروی متخصص شرایطی را برای پیشروی در حوزه گرافیک رایانه
+                                ای نیز فراهم می کند و از این ابزار می توان خروجی های متعدد گرفت و از آن مهمتر
+                                نیروی انسانی در بستر کد تجربه پیدا می کند و از سوی دیگر کد به مرور پیشرفت می کند
+                                و تبدیل به یک محصول قابل اعتنا می شود که در گذر زمان توسعه یافته است.
+                                <br><br>
                             </p>
                         </div>
                     </div>
@@ -164,8 +169,11 @@
                                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
                             </div>
                             <h2 class="title"> ادبیات و راهبرد </h2>
-                            <p style="text-align: right">
-                                در کنار سه گانه مطرح شده یعنی : ابزار، نیروی انسانی و مرجع علمی، نقشه راه عنصری بسیار تاثیرگذار و حلقه مفقوده و متصل کننده این سه مولفه به یکدیگر است، راهبرد نقشه راه کلی را تبیین می کند و ادبیات کارکردها و نقش آفرینی هر یک از محصولات در زندگی را مشخص می کند که بدون این دو عنصر هیچ یک از سه گانه مطرح شده ابزار، مرجع علمی و نیروی انسانی کمترین فایده ای نخواهند داشت.
+                            <p>
+                                در کنار سه گانه مطرح شده یعنی : ابزار، نیروی انسانی و مرجع علمی، نقشه راه عنصری بسیار تاثیرگذار و حلقه مفقوده و متصل کننده این سه مولفه به یکدیگر است، راهبرد نقشه راه کلی را تبیین می کند و
+                                ادبیات کارکردها و نقش آفرینی هر یک از محصولات در زندگی را مشخص می کند که بدون این
+                                دو عنصر هیچ یک از سه گانه مطرح شده ابزار، مرجع علمی و نیروی انسانی کمترین فایده ای نخواهند داشت.
+                                <br><br><br><br>
                             </p>
                         </div>
                     </div>
@@ -258,7 +266,7 @@
                     <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/brudband_The_Virtual_Studio.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/brudband_The_Virtual_Studio2.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
@@ -286,7 +294,7 @@
                     <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/brudband_Proactive_production.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/brudband_Proactive_production2.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
@@ -556,7 +564,7 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/design_3d_scan.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/design_3d_scan2.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
@@ -584,7 +592,7 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/design_CAD.png" class="img-fluid" alt="">
+                                <img src="img/portfolio/design_CAD2.png" class="img-fluid" alt="">
                                 <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
@@ -628,7 +636,7 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-training wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/training_mobile-learning.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/training_mobile-learning2.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
@@ -642,7 +650,7 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-training wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/training_vivo-smartwatch.jpeg" class="img-fluid" alt="">
+                                <img src="img/portfolio/training_vivo-smartwatch2.jpeg" class="img-fluid" alt="">
                                 <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
