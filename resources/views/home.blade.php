@@ -9,11 +9,11 @@
             <div class="carousel-inner" role="listbox">
 
                 <div class="carousel-item active">
-                    <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+                    <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2></h2>
-                            <p></p>
+                            <h2 style="text-align: center">«نجاه»</h2>
+                            <p style="text-align: center ; font-size: 20px"> نظام جامع آموزش هماهنگ</p>
                         </div>
                     </div>
                 </div>
@@ -23,37 +23,17 @@
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <h2></h2>
-                            <p></p>
+                            <p style="text-align: center ;  font-size: 20px">اولین مرکز تخصصی آموزش گرافیک رایانه ای (CG) در ایران
+                                با طرح درس و منابع اختصاصی</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="carousel-item">
-                    <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
-                    <div class="carousel-container">
-                        <div class="carousel-content">
-                            <h2></h2>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="carousel-item">
                     <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <h2></h2>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
-                    <div class="carousel-container">
-                        <div class="carousel-content">
-                            <h2></h2>
-                            <p></p>
+                            <p style="text-align: center ;  font-size: 20px">از منابع پایه تا کاربردی تا راهبردهای تجاری و تقویم تخصصی   NejahEDU در دسترس شماست</p>
                         </div>
                     </div>
                 </div>
@@ -131,7 +111,7 @@
                     <div class="col-md-4 wow fadeInUp">
                         <div class="about-col">
                             <div class="img">
-                                <img src="img/about-mission.jpg" alt="" class="img-fluid">
+                                <img src="img/book.jpg" alt="" class="img-fluid">
                                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                             </div>
                             <h2 class="title"> کتاب </h2>
@@ -146,7 +126,7 @@
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="about-col">
                             <div class="img">
-                                <img src="img/about-plan.jpg" alt="" class="img-fluid">
+                                <img src="img/about-mission.jpg" alt="" class="img-fluid">
                                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
                             </div>
                             <h2 class="title"> ابزار  </h2>
@@ -165,7 +145,7 @@
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="about-col">
                             <div class="img">
-                                <img src="img/about-vision.jpg" alt="" class="img-fluid">
+                                <img src="img/about-plan.jpg" alt="" class="img-fluid">
                                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
                             </div>
                             <h2 class="title"> ادبیات و راهبرد </h2>
@@ -190,7 +170,7 @@
         <section id="call-to-action" class="wow fadeIn">
             <div class="container text-center">
                 <h3>گرافیک رایانه ای</h3>
-                <p>گرافیک رایانه ای علم مبتنی بر تصاویر است که به تولید یا تحلیل تصاویر رایانه ای می پردازد، این علم در بیش از 13 حوزه صنعتی و علمی مشخص کارکرد ویژه ای دارد که هر یک می توانند زمینه تولید محصولات و ایجاد اشتغال پایدار را برای دانش پژوه فراهم کنند.</p>
+                <p style="text-align: center" >گرافیک رایانه ای علم مبتنی بر تصاویر است که به تولید یا تحلیل تصاویر رایانه ای می پردازد، این علم در بیش از 13 حوزه صنعتی و علمی مشخص کارکرد ویژه ای دارد که هر یک می توانند زمینه تولید محصولات و ایجاد اشتغال پایدار را برای دانش پژوه فراهم کنند.</p>
             </div>
         </section><!-- #call-to-action -->
         <!--==========================
@@ -230,7 +210,7 @@
 
                             <div class="portfolio-info">
                                 <h4><a href="#">مدل سازی ریاضی</a></h4>
-                                <p>آنالیز و تحلیل</p>
+                                <p style="text-align: center">آنالیز و تحلیل</p>
                             </div>
                         </div>
                     </div>
@@ -244,7 +224,7 @@
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> هواشناسی</a></h4>
-                                <p>آنالیز و تحلیل</p>
+                                <p style="text-align: center">آنالیز و تحلیل</p>
                             </div>
                         </div>
                     </div>
@@ -258,7 +238,7 @@
 
                             <div class="portfolio-info">
                                 <h4><a href="#">  علوم پایه</a></h4>
-                                <p>آنالیز و تحلیل</p>
+                                <p style="text-align: center">آنالیز و تحلیل</p>
                             </div>
                         </div>
                     </div>
@@ -266,14 +246,14 @@
                     <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/brudband_The_Virtual_Studio2.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/RadStudio (2).jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
                                 <h4><a href="#">استدیو مجازی</a></h4>
-                                <p>برودباند</p>
+                                <p style="text-align: center">برودباند</p>
                             </div>
                         </div>
                     </div>
@@ -287,35 +267,35 @@
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> تدوین</a></h4>
-                                <p>برودباند</p>
+                                <p style="text-align: center">برودباند</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/brudband_Proactive_production2.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/Bistro_Day_02.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> تولید بلادرنگ</a></h4>
-                                <p>برودباند</p>
+                                <p style="text-align: center">برودباند</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/brudband_Sports_services.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/Untitled-9.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> خدمات ورزشی</a></h4>
-                                <p>برودباند</p>
+                                <p style="text-align: center">برودباند</p>
                             </div>
                         </div>
                     </div>
@@ -329,21 +309,21 @@
 
                             <div class="portfolio-info">
                                 <h4><a href="#">3d , Imax </a></h4>
-                                <p>برودباند</p>
+                                <p style="text-align: center">برودباند</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item  filter-brudband wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/brudband_Special_video.png" class="img-fluid" alt="">
+                                <img src="img/portfolio/Untitled-10.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> فیلم برداری های ویژه</a></h4>
-                                <p>برودباند</p>
+                                <p style="text-align: center">برودباند</p>
                             </div>
                         </div>
                     </div>
@@ -358,7 +338,7 @@
 
                             <div class="portfolio-info">
                                 <h4><a href="#">اسکن پزشکی</a></h4>
-                                <p>پزشکی</p>
+                                <p style="text-align: center">پزشکی</p>
                             </div>
                         </div>
                     </div>
@@ -372,7 +352,7 @@
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> تجهیزات و پنل های پزشکی</a></h4>
-                                <p>پزشکی</p>
+                                <p style="text-align: center">پزشکی</p>
                             </div>
                         </div>
                     </div>
@@ -386,21 +366,21 @@
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> عمل های از راه دور</a></h4>
-                                <p>پزشکی</p>
+                                <p style="text-align: center">پزشکی</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-medical wow fadeInUp" data-wow-delay="0.2s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/medical_Movement_therapy.png" class="img-fluid" alt="">
+                                <img src="img/portfolio/Untitled-8.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> درمان های حرکتی</a></h4>
-                                <p>پزشکی</p>
+                                <p style="text-align: center">پزشکی</p>
                             </div>
                         </div>
                     </div>
@@ -408,28 +388,28 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/fun_game.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/Untitled-6.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
                                 <h4><a href="#">بازی</a></h4>
-                                <p>سرگرمی</p>
+                                <p style="text-align: center">سرگرمی</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/fun_animation.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/Untitled-7.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> انیمیشن</a></h4>
-                                <p>سرگرمی</p>
+                                <p style="text-align: center">سرگرمی</p>
                             </div>
                         </div>
                     </div>
@@ -443,35 +423,35 @@
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> واقعیت مجازی</a></h4>
-                                <p>سرگرمی</p>
+                                <p style="text-align: center">سرگرمی</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/fun_augmented_reality.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/Untitled-4.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> واقعیت افزوده</a></h4>
-                                <p>سرگرمی</p>
+                                <p style="text-align: center">سرگرمی</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-fun  wow fadeInUp">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/fun_special_effects.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/Untitled-22.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> جلوه های ویژه</a></h4>
-                                <p>سرگرمی</p>
+                                <p style="text-align: center">سرگرمی</p>
                             </div>
                         </div>
                     </div>
@@ -485,7 +465,7 @@
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> اسباب بازی</a></h4>
-                                <p>سرگرمی</p>
+                                <p style="text-align: center">سرگرمی</p>
                             </div>
                         </div>
                     </div>
@@ -500,7 +480,7 @@
 
                             <div class="portfolio-info">
                                 <h4><a href="#">شبیه سازی</a></h4>
-                                <p>نظامی</p>
+                                <p style="text-align: center">نظامی</p>
                             </div>
                         </div>
                     </div>
@@ -514,49 +494,49 @@
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> سامانه های نقطه زن</a></h4>
-                                <p>نظامی</p>
+                                <p style="text-align: center">نظامی</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item  filter-military wow fadeInUp" data-wow-delay="0.2s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/miliary_Security_identity.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/Untitled-5.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> سامانه های هویتی ، امنیتی</a></h4>
-                                <p>نظامی</p>
+                                <p style="text-align: center">نظامی</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item  filter-military wow fadeInUp" data-wow-delay="0.2s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/military_observation.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/Untitled-33.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> سامانه های رصد</a></h4>
-                                <p>نظامی</p>
+                                <p style="text-align: center">نظامی</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item  filter-military wow fadeInUp" data-wow-delay="0.2s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/military_mapping.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/Untitled-2 (2).jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> نقشه برداری</a></h4>
-                                <p>نظامی</p>
+                                <p style="text-align: center">نظامی</p>
                             </div>
                         </div>
                     </div>
@@ -564,14 +544,14 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/design_3d_scan2.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/Untitled-3.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
                                 <h4><a href="#">اسکن سه بعدی</a></h4>
-                                <p>طراحی و تولید</p>
+                                <p style="text-align: center">طراحی و تولید</p>
                             </div>
                         </div>
                     </div>
@@ -585,21 +565,21 @@
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> پرینت سه بعدی</a></h4>
-                                <p>طراحی و تولید</p>
+                                <p style="text-align: center">طراحی و تولید</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-design wow fadeInUp">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/design_CAD2.png" class="img-fluid" alt="">
+                                <img src="img/portfolio/Untitled-1 (6).jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> CAD</a></h4>
-                                <p>طراحی و تولید</p>
+                                <p style="text-align: center">طراحی و تولید</p>
                             </div>
                         </div>
                     </div>
@@ -613,7 +593,7 @@
 
                             <div class="portfolio-info">
                                 <h4><a href="#"> شبیه سازی های صنعتی</a></h4>
-                                <p>طراحی و تولید</p>
+                                <p style="text-align: center">طراحی و تولید</p>
                             </div>
                         </div>
                     </div>
@@ -628,36 +608,36 @@
                             </figure>
 
                             <div class="portfolio-info">
-                                <h4><a href="#">بر بستر وب</a></h4>
-                                <p>آموزش</p>
+                                <h4><a href="#">آموزش بر بستر وب  </a></h4>
+                                <p style="text-align: center">آموزش</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-training wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/training_mobile-learning2.jpg" class="img-fluid" alt="">
+                                <img src="img/portfolio/cell-phone.jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
-                                <h4><a href="#"> بر بستر موبایل </a></h4>
-                                <p>آموزش</p>
+                                <h4><a href="#">آموزش بر بستر موبایل </a></h4>
+                                <p style="text-align: center">آموزش</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-training wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/training_vivo-smartwatch2.jpeg" class="img-fluid" alt="">
+                                <img src="img/portfolio/Untitled-1 (3).jpg" class="img-fluid" alt="">
                                 <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
                             <div class="portfolio-info">
-                                <h4><a href="#"> بربستر گجت </a></h4>
-                                <p>آموزش</p>
+                                <h4><a href="#">آموزش بربستر گجت </a></h4>
+                                <p style="text-align: center">آموزش</p>
                             </div>
                         </div>
                     </div>
