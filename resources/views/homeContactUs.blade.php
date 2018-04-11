@@ -14,14 +14,14 @@
                     <div class="contact-email">
                         <i class="ion-ios-email-outline"></i>
                         <h3>ایمیل</h3>
-                        <p><a href="mailto:info@example.com">info@example.com</a></p>
+                        <p style="text-align: center"><a href="mailto:info@example.com">info@example.com</a></p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="contact-phone">
                         <i class="ion-ios-telephone-outline"></i>
                         <h3>تلفن</h3>
-                        <p><a href="tel:+155895548855">+98 8132221002</a></p>
+                        <p style="text-align: center"><a href="tel:+155895548855">+98 8132221002</a></p>
                     </div>
                 </div>
                 <div class="col-md-4">
