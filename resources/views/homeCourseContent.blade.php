@@ -50,7 +50,7 @@
                     </div>
                     <div class="row contact-info" style="direction: rtl" >
                         <h4 class="title" ><a href=""> 1.	دوره فناوری و بازار :	</a></h4>
-                         
+
                     </div>
                     <div class="row contact-info" style="direction: rtl" >
                         <p class="description">
