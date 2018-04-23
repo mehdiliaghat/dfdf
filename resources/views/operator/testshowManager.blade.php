@@ -6,7 +6,7 @@
     <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/48.jpg" alt="User Image">
         <div>
             <p class="app-sidebar__user-name"> محمد مهدی لیاقت زاده</p>
-            <p class="app-sidebar__user-designation"> استاد</p>
+            <p class="app-sidebar__user-designation"> مسسول سیستم</p>
         </div>
     </div>
     <ul class="app-menu">
