@@ -11,7 +11,7 @@ class SelectCourseStudentController extends Controller
 {
      public function index()
      {
-         return view('operator.studentSelectCourses');
+         return view('operator.testselectStudentForSelectcourse');
 
      }
     public function getPost_id(Request $request)

@@ -204,7 +204,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/analysis_Mathematical_modeling.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/analysis_Mathematical_modeling.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -218,7 +218,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/analysis_weather.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/analysis_weather.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -232,7 +232,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/analysis_Basic_sciences.png" class="img-fluid" alt="">
-                                <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/analysis_Basic_sciences.png" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -247,7 +247,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/RadStudio (2).jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/RadStudio (2).jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -261,7 +261,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/brudband_Editor.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/brudband_Editor.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -275,7 +275,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/Bistro_Day_02.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/Bistro_Day_02.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -289,7 +289,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/Untitled-9.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/Untitled-9.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -303,7 +303,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/brudband_imax_3d.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/brudband_imax_3d.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -317,7 +317,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/Untitled-10.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/Untitled-10.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -332,7 +332,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/medical_scan.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/medical_scan.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -346,7 +346,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/medical_panel.png" class="img-fluid" alt="">
-                                <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/medical_panel.png" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -360,7 +360,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/medical_Remote_operation.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/medical_Remote_operation.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -374,7 +374,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/Untitled-8.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/Untitled-8.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -389,7 +389,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/Untitled-6.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/Untitled-6.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -403,7 +403,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/Untitled-7.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/Untitled-7.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -417,7 +417,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/fun_virtual_reality.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/fun_virtual_reality.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -431,7 +431,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/Untitled-4.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/Untitled-4.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -445,7 +445,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/Untitled-22.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/Untitled-22.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -459,7 +459,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/fun_toys.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/fun_toys.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -474,7 +474,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/military_simulation.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/military_simulation.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -488,7 +488,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/military_point_system.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/military_point_system.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -502,7 +502,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/Untitled-5.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/Untitled-5.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -516,7 +516,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/Untitled-33.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/Untitled-33.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -530,7 +530,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/Untitled-2 (2).jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/Untitled-2 (2).jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -545,7 +545,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/Untitled-3.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/Untitled-3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -559,7 +559,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/design_3D-printing.jpeg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/design_3D-printing.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -573,7 +573,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/Untitled-1 (6).jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/Untitled-1 (6).jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -603,7 +603,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/training_WEB.jpeg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/training_WEB.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -617,7 +617,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/cell-phone.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/cell-phone.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -631,7 +631,7 @@
                         <div class="portfolio-wrap">
                             <figure>
                                 <img src="img/portfolio/Untitled-1 (3).jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <a href="img/portfolio/Untitled-1 (3).jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 

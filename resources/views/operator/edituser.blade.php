@@ -73,7 +73,7 @@
                     <img src="{{ url('upload_files/users/' . $user->photo) }}" style="width:50px">
                 @else
                     <p>No image found</p>
-                    @endif
+                 @endif
                 </div>
                 <div class="form-group col-lg-3 ">
                     <input class="form-control"  name="photo" type="file">

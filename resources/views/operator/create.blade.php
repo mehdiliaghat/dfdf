@@ -12,16 +12,17 @@
                         <ul>
                             @foreach($errors->all() as $error)
                                 <li>{{$error}}</li>
-                                @endforeach
+                            @endforeach
                         </ul>
                     </div>
-                    @endif
+                @endif
                 <form method="post" action="{{route('users.store')}}" enctype="multipart/form-data">
                     {!! csrf_field() !!}
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" >
                         <div class="form-group">
                             <input type="text"  name="phone" placeholder="تلفن" class="form-control" id="inputWarning" required  {{old('phone')}}>
                         </div>
+
                         <div class="form-group">
                             <input type="text"  name="edu" placeholder="تحصیلات" class="form-control" id="inputError" required  {{old('edu')}}>
                         </div>
@@ -42,7 +43,7 @@
                             <input type="text"  name="address" placeholder=" آدرس" class="form-control" id="inputWarning" required {{old('address')}} >
                         </div>
                     </div>
-                        <div class="col-lg-6">
+                    <div class="col-lg-6">
                             <div class="form-group">
                                 <input type="text"  name="first_name" placeholder="نام" class="form-control" id="inputSuccess" required  {{old(' first_name')}}>
                             </div>
@@ -79,5 +80,4 @@
                 </form>
             </div>
         <hr size="30">
-
     @stop

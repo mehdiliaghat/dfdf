@@ -25,7 +25,7 @@ class DashboardController extends Controller
             return view('manager.master');
         }
         else if (Auth::user()->type=='Operator'){
-            return view('operator.master');
+            return view('operator.testBase');
         }
         else if (Auth::user()->type=='Employee') {
             return view('employee.master');

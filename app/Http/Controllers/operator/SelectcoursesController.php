@@ -40,7 +40,7 @@ class SelectcoursesController extends Controller
     public function getPost_id(Request $request)
     {
         $data=DB::table('users')->where('post_id', $request->post_id)->first()->id;
-        return view('operator.createStudent')->with(array('user_id'=>$data));
+        return view('operator.testcreateTerm')->with(array('user_id'=>$data));
 
     }
     public function store(StudentRequest $request)

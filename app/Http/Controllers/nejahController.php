@@ -14,6 +14,31 @@ class nejahController extends Controller
     {
         return view('homeScan3d');
     }
+    public function homeVR()
+    {
+        return view('homeVR');
+    }
+    public function homeAR()
+    {
+        return view('homeAR');
+    }
+    public function homeSeriousGames()
+    {
+        return view('homeSeriousGames');
+    }
+    public function homeBroadcast()
+    {
+        return view('homeBroadcast');
+    }
+    public function homeWeb3d()
+    {
+        return view('homeWeb3d');
+    }
+    public function HoloGraphics()
+    {
+        return view('homeHoloGraphics');
+    }
+
     public function homeContactUs()
     {
         return view('homeContactUs');

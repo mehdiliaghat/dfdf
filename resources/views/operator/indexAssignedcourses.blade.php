@@ -90,8 +90,8 @@
                             <td>{{$assignedcourse->prerequisite}}</td>
                             <td>{{$assignedcourse->need}}</td>
                             <td>
-                                   {{$assignedcourse->day}}
-                                    {{$assignedcourse->location}}
+                                {{$assignedcourse->day}}
+                                {{$assignedcourse->location}}
                                 {{$assignedcourse->time}}
                             </td>
                             <td>{{$assignedcourse->date}}</td>

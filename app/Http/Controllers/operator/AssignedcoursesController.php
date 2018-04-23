@@ -18,7 +18,7 @@ class AssignedcoursesController extends Controller
    public function index()
    {
        $data['assignedcourses'] = DB::table('assignedcourses')->get();
-       return view('operator.indexAssignedcourses', $data);
+       return view('operator.testshowAssignedcourses', $data);
    }
    public function store(AssignedcourseRequest $request)
    {
@@ -52,12 +52,12 @@ class AssignedcoursesController extends Controller
    }
    public function create()
    {
-       return view('operator.createCourse');
+       return view('operator.testcreateAssignedcourse');
    }
    public function edit($id)
    {
        $assignedcourse = Assignedcourse::find($id);
-       return view('operator.editAssignedCourse', compact('assignedcourse'));
+       return view('operator.testeditAssignedcourses', compact('assignedcourse'));
    }
    public function update(AssignedcourseRequest $request, $id)
    {

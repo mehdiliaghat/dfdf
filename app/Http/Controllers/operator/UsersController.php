@@ -18,40 +18,40 @@ class UsersController extends Controller
     {
         $data['users'] = DB::table('users')->where('type', 'Manager')->get();
 
-        return view('operator.indexManager', $data);
+        return view('operator.testshowManager', $data);
     }
 
     public function indexStudent()
     {
         $data['users'] = DB::table('users')->where('type', 'Student')->get();
 
-        return view('operator.indexStudent', $data);
+        return view('operator.testshowStudent', $data);
     }
 
     public function indexProf()
     {
         $data['users'] = DB::table('users')->where('type', 'Prof')->get();
 
-        return view('operator.indexProf', $data);
+        return view('operator.testshowProf', $data);
     }
 
     public function indexEmployee()
     {
         $data['users'] = DB::table('users')->where('type', 'Employee')->get();
 
-        return view('operator.indexEmployee', $data);
+        return view('operator.testshowEmployee', $data);
     }
 
     public function indexOperator()
     {
         $data['users'] = DB::table('users')->where('type', 'Operator')->get();
 
-        return view('operator.indexOperator', $data);
+        return view('operator.testshowOperator', $data);
     }
 
     public function create()
     {
-        return view('operator.create');
+        return view('operator.testCreateUser');
     }
 
 
@@ -92,7 +92,7 @@ class UsersController extends Controller
     public function edit($id)
     {
         $user = User::find($id);
-        return view('operator.edituser', compact('user'));
+        return view('operator.testeditUser', compact('user'));
 
     }
 

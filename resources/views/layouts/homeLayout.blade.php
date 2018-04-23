@@ -12,7 +12,8 @@
     <link href="{{ asset('img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="{{ asset('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700') }}" rel="stylesheet">
+    <link href="{{ asset('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700') }}"
+          rel="stylesheet">
     <link href="{{ asset('css/iransans.css') }}" rel="stylesheet">
 
     <!-- Bootstrap CSS File -->
@@ -37,9 +38,7 @@
     ======================================================= -->
 
 
-
 </head>
-
 
 
 <body>
@@ -63,15 +62,24 @@
                 <li class="menu-has-children"><a href="#">فناوری ها</a>
                     <ul>
                         <li><a href="{{route('home.scan3d')}}">اسکن و پرینت سه بعدی</a></li>
-                        <li><a href="#">برودکست و برودباند</a></li>
-                        <li><a href="#">واقعیت مجازی</a></li>
-                        <li><a href="#">واقعیت افزوده</a></li>
-                        <li><a href="#"> بازی های جدی</a></li>
-                        <li><a href="#"> وب سه بعدی </a></li>
+                        <li><a href="{{route('home.Broadcast')}}">برودکست و برودباند</a></li>
+                        <li><a href="{{route('home.VR')}}">واقعیت مجازی</a></li>
+                        <li><a href="{{route('home.AR')}}">واقعیت افزوده</a></li>
+                        <li><a href="{{route('home.SeriousGames')}}"> بازی های جدی</a></li>
+                        <li><a href="{{route('home.Web3d')}}"> وب سه بعدی </a></li>
+                        <li><a href="{{route('home.HoloGraphics')}}">هولوگرافیک</a></li>
                     </ul>
                 </li>
                 <li><a href="#about">معرفی دوره ها</a></li>
-                <li><a href="{{route('login')}}"> ورود</a></li>
+                @if(auth()->check())
+                    <li><a href="{{route('logout')}}" onclick="event.preventDefault();
+          document.getElementById('logout-form').submit();">خروج </a></li>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        {{ csrf_field() }}
+                    </form>
+                @else
+                    <li><a href="{{route('login')}}"> ورود</a></li>
+                @endif
                 <li class="menu-active"><a href="{{route('home')}}">خانه</a></li>
             </ul>
         </nav><!-- #nav-menu-container -->
@@ -98,7 +106,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 footer-links" style="text-align: right">
                     <h4>لینک های پرکاربرد</h4>
-                    <ul >
+                    <ul>
                         <li><i class="ion-ios-home-outline"></i><a href="#">خانه</a></li>
                         <li><i class="ion-ios-list-outline"></i> <a href="#">معرفی دوره ها</a></li>
                         <li><i class="ion-ios-w"></i> <a href="#">زمینه های کاربردی اشتغال</a></li>
@@ -131,7 +139,7 @@
 
     <div class="container">
         <div class="copyright">
-            &copy;  <strong>mehdiliaghat7@gmail.com</strong>
+            &copy; <strong>mehdiliaghat7@gmail.com</strong>
         </div>
     </div>
 </footer><!-- #footer -->
