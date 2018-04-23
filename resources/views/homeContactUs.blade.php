@@ -1,11 +1,41 @@
 @extends('layouts.homeLayout')
+@section('slider')
+
+    <div class="intro-container">
+        <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+            <ol class="carousel-indicators"></ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <div class="carousel-item active">
+                    <div class="carousel-background"><img src="{{ asset('img/intro-carousel/contactUs.jpg') }}" alt=""></div>
+                    <div class="carousel-container">
+                        <div class="carousel-content">
+                            <h2> </h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        @stop
 @section('content')
     <section id="contact" class="section-bg wow fadeInUp" >
         <div class="container">
 
             <div class="section-header">
-                <h3>ارتباط با ما</h3>
-                <p>گروه فناوری های نوین آتریاد</p>
+                <h3> درخواست ثبت نام</h3>
             </div>
 
 

@@ -12,7 +12,7 @@
                     <div class="carousel-background"><img src="{{ asset('img/intro-carousel/SeriousGames.jpg') }}" alt=""></div>
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2></h2>
+                            <h2>« بازی جدی»</h2>
                             <p></p>
                         </div>
                     </div>

@@ -70,7 +70,8 @@
                         <li><a href="{{route('home.HoloGraphics')}}">هولوگرافیک</a></li>
                     </ul>
                 </li>
-                <li><a href="#about">معرفی دوره ها</a></li>
+                <li><a href="#about"> محتوای دوره </a></li>
+                <li><a href="{{route('home.CourseContent')}}">  معرفی دوره </a></li>
                 @if(auth()->check())
                     <li><a href="{{route('logout')}}" onclick="event.preventDefault();
           document.getElementById('logout-form').submit();">خروج </a></li>

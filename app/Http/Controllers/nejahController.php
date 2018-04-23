@@ -38,6 +38,10 @@ class nejahController extends Controller
     {
         return view('homeHoloGraphics');
     }
+    public function homeCourseContent()
+    {
+        return view('homeCourseContent');
+    }
 
     public function homeContactUs()
     {

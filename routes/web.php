@@ -4,6 +4,7 @@
     Route::get('/home/scan3d','nejahController@homeScan3d')->name('home.scan3d');
     Route::get('/home/VR','nejahController@homeVR')->name('home.VR');
     Route::get('/home/AR','nejahController@homeAR')->name('home.AR');
+    Route::get('/home/CourseContent','nejahController@homeCourseContent')->name('home.CourseContent');
     Route::get('/home/SeriousGames','nejahController@homeSeriousGames')->name('home.SeriousGames');
     Route::get('/home/Broadcast','nejahController@homeBroadcast')->name('home.Broadcast');
     Route::get('/home/Web3d','nejahController@homeWeb3d')->name('home.Web3d');

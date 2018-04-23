@@ -63,7 +63,6 @@
         <section id="featured-services">
             <div class="container">
                 <div class="row">
-
                     <div class="col-lg-4 box" style="text-align: right">
                         <i class="ion-ios-bookmarks-outline" ></i>
                         <h4 class="title"><a href="#">گرافیک رایانه ای</a></h4>
@@ -72,7 +71,6 @@
                             دانش گرافیک رایانه ای در حوزه آکادمیک به صورت یک مسیر رفت و برگشت دو طرفه در نظر گرفته می شود، بخشی شامل رندر و بخشی شامل پردازش تصاویر رایانه ای .
                         </p>
                     </div>
-
                     <div class="col-lg-4 box box-bg" style="text-align: right" >
                         <i class="ion-ios-stopwatch-outline"></i>
                         <h4 class="title"><a href="">بازی ویدئویی ظاهری سرگرم کننده</a></h4>
@@ -80,7 +78,6 @@
                             فناوری های مرتبط با بازی های رایانه ای تقریبا تمامی حوزه های مرتبط با تصویر سازی را در بر می گیرد که از حوزه نظامی تا شبیه سازی های علمی را پوشش می دهند و متاسفانه به دلیل نگاه فن محور، در کشور ما از آن غفلت شده است. اگر فناوری های مرتبط با بازی رایانه ای را در قالب یک دانش، طبقه بندی کنیم باید از گرافیک رایانه ای نام ببریم.
                         </p>
                     </div>
-
                     <div class="col-lg-4 box" style="text-align: right">
                         <i class="ion-ios-heart-outline"></i>
                         <h4 class="title"><a href="">فن یا فناوری</a></h4>

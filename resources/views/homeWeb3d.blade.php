@@ -12,7 +12,7 @@
                     <div class="carousel-background"><img src="{{ asset('img/intro-carousel/Web3d.jpg') }}" alt=""></div>
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2></h2>
+                            <h2>« وب سه بعدی»</h2>
                             <p></p>
                         </div>
                     </div>
