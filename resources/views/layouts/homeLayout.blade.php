@@ -58,7 +58,7 @@
         <nav id="nav-menu-container">
             <ul class="nav-menu">
                 <li><a href="{{route('home.contactUs')}}">ارتباط باما</a></li>
-                <li><a href="#portfolio">زمینه های کاربردی اشتغال</a></li>
+                <li><a href="{{url('/#portfolio')}}">زمینه های کاربردی اشتغال</a></li>
                 <li class="menu-has-children"><a href="#">فناوری ها</a>
                     <ul>
                         <li><a href="{{route('home.scan3d')}}">اسکن و پرینت سه بعدی</a></li>
@@ -70,7 +70,7 @@
                         <li><a href="{{route('home.HoloGraphics')}}">هولوگرافیک</a></li>
                     </ul>
                 </li>
-                <li><a href="#about"> محتوای دوره </a></li>
+                <li><a href="{{url('/#about')}}"> محتوای دوره </a></li>
                 <li><a href="{{route('home.CourseContent')}}">  معرفی دوره </a></li>
                 @if(auth()->check())
                     <li><a href="{{route('logout')}}" onclick="event.preventDefault();

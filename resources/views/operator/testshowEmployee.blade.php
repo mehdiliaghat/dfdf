@@ -55,11 +55,11 @@
     <div class="app-title">
         <ul class="app-breadcrumb breadcrumb">
             <li class="breadcrumb-item"><i class="fa fa-list fa-lg"></i></li>
-            <li class="breadcrumb-item"><a href="#"> لیست کابران(کارمندان )</a></li>
+            <li class="breadcrumb-item"><a href="#">  کارمندان  </a></li>
         </ul>
 
         <div>
-            <h1><i class="fa fa-list"></i>  لیست کابران(کارمندان ) </h1>
+            <h1><i class="fa fa-list"></i>   کارمندان  </h1>
             <p> نظام جامع آموزش هماهنگ</p>
         </div>
     </div>

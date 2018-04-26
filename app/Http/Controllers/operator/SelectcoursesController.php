@@ -13,11 +13,11 @@ class SelectcoursesController extends Controller
 {
     public function index()
     {
-        return view('operator.indexSelectCourses');
+        return view('operator.testselectStudentForCreateTerm');
     }
     public function indexShow()
     {
-        return view('operator.indexShow');
+        return view('operator.testselectStudentForShowTerm');
     }
     public function show(Request $request)
     {

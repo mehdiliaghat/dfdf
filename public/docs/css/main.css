@@ -13522,7 +13522,7 @@ be a descendant of the grid when it is being dragged.
       -ms-flex-align: center;
           align-items: center;
   flex-direction: row-reverse;
-  float: right;
+  /*float: right;*/
   padding: 5px 5px 5px 30px;
   font-size: 1em;
   color: #fff;
