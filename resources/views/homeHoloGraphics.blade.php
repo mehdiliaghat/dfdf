@@ -64,7 +64,7 @@
                         <div class="col-md-4">
                             <h3>pdf</h3>
                             <div class="contact-address">
-                                <a href="{{url('upload_files/home/AR/AR.pdf')}}"><img src="{{ asset('img/pdf.png') }}"  width="60" height="60"></a>
+                                <a href="{{url('upload_files/home/HoloGraphics/HoloGraghics.pdf')}}"><img src="{{ asset('img/pdf.png') }}"  width="60" height="60"></a>
                             </div>
                         </div>
                     </div>

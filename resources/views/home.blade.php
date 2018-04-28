@@ -145,7 +145,7 @@
                                 <img src="img/about-plan.jpg" alt="" class="img-fluid">
                                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
                             </div>
-                            <h2 class="title"><a href="{{url('upload_files/home/courseContent/strategy.pdf')}}">ادبیات و راهبرد</a></h2>
+                            <h2 class="title"><a href="{{url('upload_files/home/courseContent/Strategy.pdf')}}">ادبیات و راهبرد</a></h2>
                             <p>
                                 در کنار سه گانه مطرح شده یعنی : ابزار، نیروی انسانی و مرجع علمی، نقشه راه عنصری بسیار تاثیرگذار و حلقه مفقوده و متصل کننده این سه مولفه به یکدیگر است، راهبرد نقشه راه کلی را تبیین می کند و
                                 ادبیات کارکردها و نقش آفرینی هر یک از محصولات در زندگی را مشخص می کند که بدون این
