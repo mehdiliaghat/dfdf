@@ -43,6 +43,28 @@
             </section>
             <section id="contact" class="section-bg wow fadeInUp">
                 <div class="container">
+                    <div class="row contact-info">
+                        <div class="col-md-4">
+                            <h3> اینفوگرافی</h3>
+                            <div class="contact-email">
+                                <a href="#" data-lightbox="portfolio" data-title="  " class="link-preview" title="Preview"><img src="{{ asset('img/Untitled-2.png') }}"  width="60" height="60"></a>
+                                <p><a href=""></a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h3>مستند</h3>
+                            <div class="contact-phone">
+                                <a href="#"><img src="{{ asset('img/video-icon.png') }}"  width="60" height="60"></a>
+                                <p><a href=""></a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h3>pdf</h3>
+                            <div class="contact-address">
+                                <a href=" #"><img src="{{ asset('img/pdf.png') }}"  width="60" height="60"></a>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="section-header">
                         <h3>دوره ها </h3>

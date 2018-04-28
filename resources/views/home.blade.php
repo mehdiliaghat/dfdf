@@ -111,7 +111,7 @@
                                 <img src="img/book.jpg" alt="" class="img-fluid">
                                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                             </div>
-                            <h2 class="title"> کتاب </h2>
+                            <h2 class="title"><a href="{{url('upload_files/home/courseContent/book.pdf')}}">کتاب</a></h2>
                             <p>
 
                                 کتاب و مرجع علمی، در هر مجموعه ای یکی از تاثیرگذارترین و اساسی ترین بنیادهای شکل دهنده ساز و کارهای علمی است، در حوزه بومی سازی نیز تامین مراجع علمی کافی برای تدریس و یادگیری عمیق یکی از اصلی ترین اولویت هاست اما این مرجع لزوما کتاب است؟ در حالی که بسیاری بر این اعتقادند که حوزه فضای مجازی با سرعتی باورنکردنی و غیرقابل کنترل در حال تغییر است، از این رو مقوله ای ایستا به نام کتاب که از زمان تصمیم گیری برای ترجمه یا تالیف تا زمان چاپ و انتشار نهایی پروسه ای زمان بر را طی می کند، دیگر در این حوزه کارکردی ندارد
@@ -124,9 +124,9 @@
                         <div class="about-col">
                             <div class="img">
                                 <img src="img/about-mission.jpg" alt="" class="img-fluid">
-                                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+                                <div class="icon"><a><i class="ion-ios-list-outline"></i></a></div>
                             </div>
-                            <h2 class="title"> ابزار  </h2>
+                            <h2 class="title"><a href="{{url('upload_files/home/courseContent/tools.pdf')}}">ابزار</a></h2>
                             <p>
                                 منظور از ابزار لزوما ساخت محیط ویژه توسعه یک محصول نیست بلکه توسعه یک بستر کد باز
                                 برای آغاز، رشد و نمو نیروی تازه کار و نیمه حرفه ای است که علاوه بر رشد این نیروها
@@ -145,7 +145,7 @@
                                 <img src="img/about-plan.jpg" alt="" class="img-fluid">
                                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
                             </div>
-                            <h2 class="title"> ادبیات و راهبرد </h2>
+                            <h2 class="title"><a href="{{url('upload_files/home/courseContent/strategy.pdf')}}">ادبیات و راهبرد</a></h2>
                             <p>
                                 در کنار سه گانه مطرح شده یعنی : ابزار، نیروی انسانی و مرجع علمی، نقشه راه عنصری بسیار تاثیرگذار و حلقه مفقوده و متصل کننده این سه مولفه به یکدیگر است، راهبرد نقشه راه کلی را تبیین می کند و
                                 ادبیات کارکردها و نقش آفرینی هر یک از محصولات در زندگی را مشخص می کند که بدون این

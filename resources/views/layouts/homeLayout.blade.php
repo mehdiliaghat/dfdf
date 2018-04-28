@@ -117,12 +117,8 @@
 
                 <div class="col-lg-4 col-md-6 footer-contact" style="text-align: right">
                     <h4>ارتباط با ما</h4>
-                    <p>
-                        ملایر ، خیابان شهید رجائی <br>
-                        ساختمان پردیس<br>
-                        طبقه چهارم ، واحد 15<br>
-                        +98 8132221002<strong>:تلفن </strong><br>
-                        info@example.com<strong>:ایمیل </strong> <br>
+                    <p style="direction: rtl">
+                        info@nejahedu.ir<strong>:ایمیل </strong> <br>
                     </p>
 
                     <div class="social-links">
@@ -132,7 +128,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 footer-info">
                     <h3>NEJAH</h3>
-                    <p style="text-align: right"> معرفی سامانه: «نظام جامع آموزش هماهنگ» رویکردی نوین برای آموزش فناروی های پیشرو گرافیکی با نکاهی متوازن به تکنیک، تکنولوژی و بازار است. </p>
+                    <p style="text-align: justify">   «نظام جامع آموزش هماهنگ» رویکردی نوین برای آموزش فناروی های پیشرو گرافیکی با نکاهی متوازن به تکنیک، تکنولوژی و بازار است. </p>
                 </div>
             </div>
         </div>

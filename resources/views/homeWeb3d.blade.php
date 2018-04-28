@@ -50,7 +50,7 @@
                         <div class="col-md-4">
                             <h3> اینفوگرافی</h3>
                             <div class="contact-email">
-                                <a href="#"><img src="{{ asset('img/Untitled-2.png') }}"  width="60" height="60"></a>
+                                <a href="{{url('upload_files/home/Web3d/Web3dInfo.jpg')}}" data-lightbox="portfolio" data-title=" وب سه بعدی " class="link-preview" title="Preview"><img src="{{ asset('img/Untitled-2.png') }}"  width="60" height="60"></a>
                                 <p><a href=""></a></p>
                             </div>
                         </div>
@@ -64,7 +64,7 @@
                         <div class="col-md-4">
                             <h3>pdf</h3>
                             <div class="contact-address">
-                                <a href="#"><img src="{{ asset('img/pdf.png') }}"  width="60" height="60"></a>
+                                <a href="{{url('upload_files/home/Web3d/Web3d.pdf')}}"><img src="{{ asset('img/pdf.png') }}"  width="60" height="60"></a>
                             </div>
                         </div>
                     </div>
