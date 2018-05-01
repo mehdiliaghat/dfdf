@@ -58,5 +58,8 @@
     Route::get('listClass','operator\ListProfClassController@index')->name('listClass.index');
     Route::post('listClass/show','operator\ListProfClassController@getPost_id')->name('listClass.getPost_id');
     Route::get('listClass/show/{id}','operator\ListProfClassController@listStudentClass')->name('listClass.Students');
+    Route::get('content/create','operator\ContentController@create')->name('content.create');
+    Route::post('content/store','operator\ContentController@store')->name('content.store');
+    Route::get('content/show','operator\ContentController@show')->name('content.show');
 
 
