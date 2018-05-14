@@ -4,10 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class type extends Model
+class Type extends Model
 {
-    public function contents()
+    public function content()
     {
-        return $this->belongsToMany(content::class);
+        return $this->belongsToMany(Content::class);
     }
 }

@@ -18,4 +18,8 @@ class Assignedcourse extends Model
     {
         return $this->hasMany(Recordscore::class);
     }
+    public function contents()
+    {
+        return $this->hasMany(content::class);
+    }
 }

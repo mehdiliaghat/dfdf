@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\operator;
 
 use App\content;
+use App\type;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
@@ -29,12 +30,21 @@ class ContentController extends Controller
          $content->user=$request->user;
          $content->term=$request->term;
          $content->save();
+         $data = $content->id;
+         $content = Content::find($data);
+         $content->types()->attach($request->type_id);
          return redirect(route('content.create'))->with('successMsg', 'user successfully added');
      }
-     public function show()
+     public function showCourse()
      {
-         $data['contents'] = DB::table('contents')->get();
-         return view('operator.testShowContent', $data);
+         $data['assignedcourses'] = DB::table('assignedcourses')->get();
+         return view('operator.testaShowCourseForContent', $data);
+
+     }
+     public function showContent($id)
+     {
+         $data['contents'] = content::where('course_id', $id)->get();
+         return view('operator.testShowContent' ,$data);
 
      }
 }

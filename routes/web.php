@@ -60,6 +60,7 @@
     Route::get('listClass/show/{id}','operator\ListProfClassController@listStudentClass')->name('listClass.Students');
     Route::get('content/create','operator\ContentController@create')->name('content.create');
     Route::post('content/store','operator\ContentController@store')->name('content.store');
-    Route::get('content/show','operator\ContentController@show')->name('content.show');
+    Route::get('content/show','operator\ContentController@showCourse')->name('content.showContent');
+    Route::get('content/showTitle/{id}','operator\ContentController@showContent')->name('content.showContentTitle');
 
 

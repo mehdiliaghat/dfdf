@@ -4,10 +4,15 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class content extends Model
+class Content extends Model
 {
     public function types()
     {
-        return $this->belongsToMany(Type::class);
+        return $this->hasMany(Type::class);
+    }
+
+    public function Assignedcourses()
+    {
+        return $this->belongsTo(Assignedcourse::class);
     }
 }

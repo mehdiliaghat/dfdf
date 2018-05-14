@@ -47,8 +47,6 @@
                 <li><a class="treeview-item" href="{{route('listClass.index')}}"><i class="icon fa fa-circle-o"></i>  لیست کلاس ها</a></li>
             </ul>
         </li>
-
-
     </ul>
 @stop
 @section('content')
@@ -101,7 +99,7 @@
                                     @elseif( $content->term  == 'medium'  )
                                          دوره تکنیک
                                     @else
-                                           دوره تکنولوژی 
+                                           دوره تکنولوژی
                                     @endif</td>
                                 <td> @if($content->user=='student')  دانشجو @else  استاد  @endif</td>
                                 <td>{{$content->price}}</td>

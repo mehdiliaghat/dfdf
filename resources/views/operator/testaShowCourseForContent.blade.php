@@ -1,9 +1,10 @@
+
 @extends('layouts.testLayout')
 @section('sidebar')
     <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/48.jpg" alt="User Image">
         <div>
             <p class="app-sidebar__user-name"> محمد مهدی لیاقت زاده</p>
-            <p class="app-sidebar__user-designation">  مسول سیستم</p>
+            <p class="app-sidebar__user-designation"> مسسول سیستم</p>
         </div>
     </div>
     <ul class="app-menu">
@@ -44,64 +45,57 @@
                 <li><a class="treeview-item" href="{{route('listClass.index')}}"><i class="icon fa fa-circle-o"></i>  لیست کلاس ها</a></li>
             </ul>
         </li>
-        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">  محتوا</span><i class="treeview-indicator fa fa-angle-right"></i></a>
-            <ul class="treeview-menu">
-                <li><a class="treeview-item" href="{{route('content.create')}}"><i class="icon fa fa-circle-o"></i>   ثبت محتوا</a></li>
-                <li><a class="treeview-item" href="{{route('listClass.index')}}"><i class="icon fa fa-circle-o"></i>   نمایش محتوا</a></li>
-            </ul>
-        </li>
-        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label"> محتوا</span><i class="treeview-indicator fa fa-angle-right"></i></a>
-            <ul class="treeview-menu">
-                <li><a class="treeview-item" href="{{route('listClass.index')}}"><i class="icon fa fa-circle-o"></i>  ثبت مختوا</a></li>
-                <li><a class="treeview-item" href="{{route('content.showContent')}}"><i class="icon fa fa-circle-o"></i>  نمایش محتوا</a></li>
-            </ul>
-        </li>
+
 
     </ul>
 @stop
 @section('content')
     <div class="app-title">
         <ul class="app-breadcrumb breadcrumb">
-            <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
-            <li class="breadcrumb-item"><a href="#">  خانه</a></li>
+            <li class="breadcrumb-item"><i class="fa fa-list fa-lg"></i></li>
+            <li class="breadcrumb-item"><a href="#"> مشاهده محتوا </a></li>
         </ul>
 
         <div>
-            <h1><i class="fa fa-home"></i> خانه</h1>
+            <h1><i class="fa fa-list"></i>   مشاهده محتوا  </h1>
             <p> نظام جامع آموزش هماهنگ</p>
         </div>
 
     </div>
     <div class="row">
-        <div class="col-md-6 col-lg-3">
-            <div class="widget-small primary coloured-icon"><i class="icon fa fa-users fa-3x"></i>
-                <div class="info">
-                    <h4>Users</h4>
-                    <p><b>5</b></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-            <div class="widget-small info coloured-icon"><i class="icon fa fa-envelope-o"></i>
-                <div class="info">
-                    <h4>Likes</h4>
-                    <p><b>25</b></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-            <div class="widget-small warning coloured-icon"><i class="icon fa fa-files-o fa-3x"></i>
-                <div class="info">
-                    <h4>Uploades</h4>
-                    <p><b>10</b></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-            <div class="widget-small danger coloured-icon"><i class="icon fa fa-files-o fa-3x"></i>
-                <div class="info">
-                    <h4>Stars</h4>
-                    <p><b>500</b></p>
+        <div class="col-md-12">
+            <div class="tile">
+                <h3 class="tile-title"> لیست دروس </h3>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th>نوع</th>
+                            <th>  واحد</th>
+                            <th>  گروه</th>
+                            <th>کد درس</th>
+                            <th>نام درس</th>
+                            <th>ردیف</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @foreach($assignedcourses as $key=>$assignedcourse)
+                            <tr>
+                                <td>
+                                    <a class="btn btn-raised btn-danger btn-sm" href="{{route('content.showContentTitle',$assignedcourse->id)}}"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                </td>
+
+                                <td> @if($assignedcourse->type=='action')  عملی @else  تئوری  @endif</td>
+                                <td>{{$assignedcourse->unit}}</td>
+                                <td>{{$assignedcourse->course_gp}}</td>
+                                <td>{{$assignedcourse->course_id}}</td>
+                                <td>{{$assignedcourse->name}}</td>
+                                <td>{{ ($key+1) }}</td>
+                            </tr>
+                        @endforeach
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

@@ -48,7 +48,7 @@
         <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label"> محتوا</span><i class="treeview-indicator fa fa-angle-right"></i></a>
             <ul class="treeview-menu">
                 <li><a class="treeview-item" href="{{route('listClass.index')}}"><i class="icon fa fa-circle-o"></i>  ثبت مختوا</a></li>
-                <li><a class="treeview-item" href="{{route('content.show')}}"><i class="icon fa fa-circle-o"></i>  نمایش محتوا</a></li>
+                <li><a class="treeview-item" href="{{route('content.showContent')}}"><i class="icon fa fa-circle-o"></i>  نمایش محتوا</a></li>
             </ul>
         </li>
 
@@ -97,7 +97,22 @@
                     </div>
                     <br>
                     <div class="row">
-
+                        <div class="col-lg-6">
+                            <div class="form-group ">
+                                <label class="pull-right" for="title" style="direction: rtl;">نوع محتوا:</label>
+                                <select class="form-control"  name="type_id" style="direction: rtl;">
+                                    <option value="1"> کتاب</option>
+                                    <option value="4">  اینفوگرافی</option>
+                                    <option value="2">  ویدئو</option>
+                                    <option value="3">  پاورپوینت</option>
+                                    <option value="5"> صوت</option>
+                                    <option value="6">  کد</option>
+                                    <option value="7">   نرم افزار</option>
+                                    <option value="8">  تقویم</option>
+                                    <option value="9">  فلش کارت</option>
+                                </select>
+                            </div>
+                        </div>
                         <div class="col-lg-6">
                             <div class="form-group ">
                                 <label class="pull-right" for="title" style="direction: rtl;">مخاطب محتوا:</label>
@@ -139,7 +154,7 @@
                     <br>
                     <div class="tile-footer">
                     </div>
-                    <button class="btn btn-primary" type="submit">Submit</button>
+                    <button class="btn btn-primary" type="submit">ثبت</button>
                 </form>
             </div>
         </div>
