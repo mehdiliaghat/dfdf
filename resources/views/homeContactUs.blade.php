@@ -12,7 +12,7 @@
                     <div class="carousel-background"><img src="{{ asset('img/intro-carousel/contactUs.jpg') }}" alt=""></div>
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2> </h2>
+                            <h2> ارتباط باما</h2>
                             <p></p>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
                     <div class="contact-email">
                         <i class="ion-ios-email-outline"></i>
                         <h3>ایمیل</h3>
-                        <p style="text-align: center"><a href="mailto:info@example.com">info@example.com</a></p>
+                        <p style="text-align: center"><a href="mailto:info@example.com">info@nejahedu.ir</a></p>
                     </div>
                 </div>
                 <div class="col-md-4">
