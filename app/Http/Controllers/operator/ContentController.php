@@ -24,7 +24,7 @@ class ContentController extends Controller
              $link->move($dir_upload, $client_name);
              $content->link = $client_name;
          }
-         $content->course_id=$request->course_id;
+         $content->assignedcourse_id=$request->assignedcourse_id;
          $content->contentName=$request->contentName;
          $content->price=$request->price;
          $content->user=$request->user;
@@ -43,7 +43,7 @@ class ContentController extends Controller
      }
      public function showContent($id)
      {
-         $data['contents'] = content::where('course_id', $id)->get();
+         $data['contents'] = content::where('assignedcourse_id', $id)->get();
          return view('operator.testShowContent' ,$data);
 
      }

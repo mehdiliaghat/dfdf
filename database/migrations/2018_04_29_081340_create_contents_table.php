@@ -15,12 +15,13 @@ class CreateContentsTable extends Migration
     {
         Schema::create('contents', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('course_id');
             $table->string('contentName');
             $table->string('link');
             $table->string('price');
             $table->enum('user',['student','prof']);
             $table->enum('term',['short','medium ','long ']);
+            $table->integer('assignedcourse_id');
+            $table->foreign('assignedcourse_id')->references('id')->on('assignedcourses')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }

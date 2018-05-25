@@ -58,7 +58,7 @@
                 <div class="col-md-4">
                     <h3>مستند</h3>
                     <div class="contact-phone">
-                        <a href="#"><img src="{{ asset('img/video-icon.png') }}"  width="60" height="60"></a>
+                        <a href="{{url('upload_files/home/Scan3d/video.mp4')}}"><img src="{{ asset('img/video-icon.png') }}"  width="60" height="60"></a>
                         <p><a href=""></a></p>
                     </div>
                 </div>

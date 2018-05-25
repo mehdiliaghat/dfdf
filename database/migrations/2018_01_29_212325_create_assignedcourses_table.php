@@ -31,8 +31,6 @@ class CreateAssignedcoursesTable extends Migration
             $table->string('prof');
             $table->string('pdf_path');
             $table->string('post_id');
-            $table->integer('content_id')->unsigned();
-            $table->foreign('content_id')->references('id')->on('contents')->onDelete('cascade')->onUpdate('cascade');
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();

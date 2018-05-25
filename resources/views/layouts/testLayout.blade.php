@@ -28,7 +28,8 @@
 <body class="app sidebar-mini rtl">
 <header class="app-header"><a class="app-header__logo" href="index.html">nejah</a>
     <!-- Sidebar toggle button-->
-    <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
+    <!--<a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>-->
+
     <!-- Navbar Right Menu-->
     <ul class="app-nav">
         <!-- User Menu-->
@@ -101,7 +102,11 @@
 <script src="{{ asset('docs/js/popper.min.js') }}"></script>
 <script src="{{ asset('docs/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('docs/js/main.js') }}"></script>
+<script src="{{ asset('js/sweetalert.min.js') }}"></script>
 <!-- The javascript plugin to display page loading on top-->
 <script src="{{ asset('docs/js/plugins/pace.min.js') }}"></script>
+@include('sweetalert::cdn')
+@include('sweetalert::view')
+
 </body>
 </html>

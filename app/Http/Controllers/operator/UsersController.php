@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\UserRequest;
 use App\User;
 use Illuminate\Support\Facades\DB;
+use Alert;
+use Softon\SweetAlert\Facades\SWAL;
 
 class UsersController extends Controller
 {
@@ -79,6 +81,7 @@ class UsersController extends Controller
         $user->address = $request->address;
         $user->national_id = $request->national_id;
         $user->save();
+        swal()->success('','   کاربر با موفقیت ثبت شد');
         return redirect(route('users.create'))->with('successMsg', 'user successfully added');
     }
 
@@ -128,14 +131,19 @@ class UsersController extends Controller
         $user->national_id = $request->national_id;
         $user->save();
         if ($user->type == 'Student') {
+            swal()->success('','  تغییر مورد نظر باموفقیت برای دانشجوی  مورد نظر اعمال شد');
             return redirect(route('users.indexstudent'));
         } else if ($user->type == 'Prof') {
+            swal()->success('','  تغییر مورد نظر باموفقیت برای استاد  مورد نظر اعمال شد');
             return redirect(route('users.indexprof'));
         } else if ($user->type == 'Manager') {
+            swal()->success('','  تغییر مورد نظر باموفقیت برای مدیرگروه  مورد نظر اعمال شد');
             return redirect(route('users.indexmanager'));
         } else if ($user->type == 'Operator') {
+            swal()->success('','  تغییر مورد نظر باموفقیت برای مسول سیستم  مورد نظر اعمال شد');
             return redirect(route('users.indexoperator'));
         } else {
+            swal()->success('','  تغییر مورد نظر باموفقیت برای کارمند  مورد نظر اعمال شد');
             return redirect(route('users.indexemployee'));
         }
 

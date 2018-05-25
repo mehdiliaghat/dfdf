@@ -8,7 +8,7 @@ class Student extends Model
 {
     public function assignedcourses()
     {
-        return $this->belongsToMany(Assignedcourse::class);
+        return $this->belongsToMany('App\Assignedcourse' ,'assignedcourse_student','student_id','assignedcourse_id');
     }
     public function users()
     {
