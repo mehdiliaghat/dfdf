@@ -105,8 +105,8 @@
 <script src="{{ asset('js/sweetalert.min.js') }}"></script>
 <!-- The javascript plugin to display page loading on top-->
 <script src="{{ asset('docs/js/plugins/pace.min.js') }}"></script>
-@include('sweetalert::cdn')
+{{---@include('sweetalert::cdn')--}}
+{{--@include('sweetalert::view')--}}
 @include('sweetalert::view')
-
 </body>
 </html>
