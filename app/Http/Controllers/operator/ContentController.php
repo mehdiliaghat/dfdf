@@ -29,22 +29,24 @@ class ContentController extends Controller
          $content->price=$request->price;
          $content->user=$request->user;
          $content->term=$request->term;
+         $content->type_id=$request->type_id;
          $content->save();
-         $data = $content->id;
-         $content = Content::find($data);
-         $content->types()->attach($request->type_id);
          return redirect(route('content.create'))->with('successMsg', 'user successfully added');
      }
      public function showCourse()
      {
+
          $data['assignedcourses'] = DB::table('assignedcourses')->get();
+
          return view('operator.testaShowCourseForContent', $data);
 
      }
      public function showContent($id)
      {
          $data['contents'] = content::where('assignedcourse_id', $id)->get();
-         return view('operator.testShowContent' ,$data);
+         dd($data);
+
+          return view('operator.testShowContent' ,$data );
 
      }
 }

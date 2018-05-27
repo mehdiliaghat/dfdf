@@ -21,7 +21,9 @@ class CreateContentsTable extends Migration
             $table->enum('user',['student','prof']);
             $table->enum('term',['short','medium ','long ']);
             $table->integer('assignedcourse_id');
+            $table->integer('type_id');
             $table->foreign('assignedcourse_id')->references('id')->on('assignedcourses')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('type_id')->references('id')->on('types')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }

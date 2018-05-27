@@ -51,14 +51,14 @@
                     <div class="contact-phone">
                         <i class="ion-ios-telephone-outline"></i>
                         <h3>تلفن</h3>
-                        <p style="text-align: center"><a href="tel:+155895548855">+98 8132221002</a></p>
+                        <p style="text-align: center"><a href="">021-38483617</a></p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="contact-address">
                         <i class="ion-ios-location-outline"></i>
-                        <h3>آدرس</h3>
-                        <address>ملایر ، خیابان شهید رجائی ، ساختمان پردیس ،طبقه چهارم واحد 15</address>
+                        <h3>:آدرس</h3>
+                        <address style="direction: rtl">   تهران- خیابان طالقانی-خیایان برفروشان جنوبی پارک هنرمندان  مرکز تولید و نشر دیجیتال انقلاب (متنا) .</address>
                     </div>
                 </div>
 

@@ -117,14 +117,23 @@
 
                 <div class="col-lg-4 col-md-6 footer-contact" style="text-align: right">
                     <h4>ارتباط با ما</h4>
-                    <p style="direction: rtl">
-                        info@nejahedu.ir<strong>:ایمیل </strong> <br>
+                    <div class="contact-phone">
+                        <img src="{{ asset('img/matna2.png') }}"  width="80" height="80">
+                    </div>
+                    <p style="text-align: justify "><strong> آدرس: </strong>
+                        تهران- خیابان طالقانی-خیایان برفروشان جنوبی پارک هنرمندان  مرکز تولید و نشر دیجیتال انقلاب (متنا)  
+                        <br>
+                        <strong > تلفن: </strong>38483617-021 <br>
                     </p>
 
-                    <div class="social-links">
+                    <p style="direction: rtl">
+
+                    </p>
+
+                   <!-- <div class="social-links">
                         <a href="#" class="twitter"><i class="fa fa-telegram"></i></a>
                         <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                    </div>
+                    </div>-->
                 </div>
                 <div class="col-lg-4 col-md-6 footer-info">
                     <h3>NEJAH</h3>

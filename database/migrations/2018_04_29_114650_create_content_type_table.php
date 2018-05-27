@@ -15,9 +15,9 @@ class CreateContentTypeTable extends Migration
     {
         Schema::create('content_type', function (Blueprint $table) {
             $table->integer('content_id')->unsigned()->index();
-            $table->foreign('content_id')->references('id')->on('types')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('content_id')->references('id')->on('contents')->onDelete('cascade')->onUpdate('cascade');
             $table->integer('type_id')->unsigned()->index();
-            $table->foreign('type_id')->references('id')->on('contents')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('type_id')->references('id')->on('types')->onDelete('cascade')->onUpdate('cascade');
         });
     }
 

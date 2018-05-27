@@ -6,8 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Type extends Model
 {
-    public function content()
+    public function contents()
     {
-        return $this->belongsToMany(Content::class);
+
+       return $this->hasMany('App\Content','content_id');
     }
+
 }

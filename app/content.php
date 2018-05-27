@@ -8,7 +8,8 @@ class Content extends Model
 {
     public function types()
     {
-        return $this->hasMany(Type::class);
+
+       return $this->belongsTo('App\Type' ,'type_id');
     }
 
     public function Assignedcourses()
