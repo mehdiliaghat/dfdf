@@ -61,7 +61,7 @@ class AssignedcoursesController extends Controller
    }
    public function create()
    {
-       return view('operator.testcreateAssignedcourse');
+       return view('operator.testcreateAssignedCourse');
    }
    public function edit($id)
    {
