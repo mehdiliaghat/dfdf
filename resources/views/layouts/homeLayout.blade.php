@@ -118,7 +118,7 @@
                 <div class="col-lg-4 col-md-6 footer-contact" style="text-align: right">
                     <h4>ارتباط با ما</h4>
                     <div class="contact-phone">
-                        <img src="{{ asset('img/matna2.png') }}"  width="80" height="80">
+                        <img src="{{ asset('img/matna3.png') }}"  width="80" height="80">
                     </div>
                     <p style="text-align: justify "><strong> آدرس: </strong>
                         تهران- خیابان طالقانی-خیایان برفروشان جنوبی پارک هنرمندان  مرکز تولید و نشر دیجیتال انقلاب (متنا)
@@ -143,14 +143,14 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="copyright">
-            &copy; <strong>mehdiliaghat7@gmail.com</strong>
+    <!--  <div class="container">
+          <div class="copyright">
+              &copy; <strong>mehdiliaghat7@gmail.com</strong>
         </div>
-    </div>
+    </div>-->
 </footer><!-- #footer -->
 
-<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!--<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>-->
 
 <!-- JavaScript Libraries -->
 <script src="{{ asset('lib/jquery/jquery.min.js') }}"></script>
