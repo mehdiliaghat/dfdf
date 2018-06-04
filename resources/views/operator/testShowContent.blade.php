@@ -26,6 +26,7 @@
                             <th> هزینه</th>
                             <th>نام محتوا</th>
                             <th>لینک</th>
+                            <th>نوع محتوا</th>
                             <th>ردیف</th>
                         </tr>
                         </thead>
@@ -56,9 +57,63 @@
                                 <td>{{$content->price}}</td>
                                 <td>{{$content->contentName}}</td>
                                 <td>
-                                    <a class="btn btn-raised btn-primary btn-sm" href="{{url('/upload_files/contents/'.$content->link)}}"><i class="fa fa-external-link" aria-hidden="true"></i></a>
-                                </td>
+                                    @if( $content->type_id == 1 )
+                                        <a class="btn btn-raised btn-primary btn-sm" href="{{url('/upload_files/contents/'.$content->link)}}">
+                                            <i class="fa fa-book" aria-hidden="true"></i></a>
 
+                                    @elseif( $content->type_id == 2)
+                                        <a class="btn btn-raised btn-primary btn-sm" href="{{url('/upload_files/contents/'.$content->link)}}">
+                                            <i class="fa fa-info-circle" aria-hidden="true"></i></a>
+
+                                    @elseif( $content->type_id == 3)
+                                        <a class="btn btn-raised btn-primary btn-sm" href="{{url('/upload_files/contents/'.$content->link)}}">
+                                            <i class="fa fa-film" aria-hidden="true"></i></a>
+
+                                    @elseif( $content->type_id == 4)
+                                        <a class="btn btn-raised btn-primary btn-sm" href="{{url('/upload_files/contents/'.$content->link)}}">
+                                            <i class="fa fa-file-powerpoint" aria-hidden="true"></i></a>
+
+                                    @elseif( $content->type_id == 5)
+                                        <a class="btn btn-raised btn-primary btn-sm" href="{{url('/upload_files/contents/'.$content->link)}}">
+                                            <i class="fa fa-volume-up" aria-hidden="true"></i></a>
+
+                                    @elseif( $content->type_id == 6)
+                                        <a class="btn btn-raised btn-primary btn-sm" href="{{url('/upload_files/contents/'.$content->link)}}">
+                                            <i class="fa fa-code" aria-hidden="true"></i></a>
+
+                                    @elseif( $content->type_id == 7)
+                                        <a class="btn btn-raised btn-primary btn-sm" href="{{url('/upload_files/contents/'.$content->link)}}">
+                                            <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                    @elseif( $content->type_id == 8)
+                                        <a class="btn btn-raised btn-primary btn-sm" href="{{url('/upload_files/contents/'.$content->link)}}">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i></a>
+
+                                    @else
+                                        <a class="btn btn-raised btn-primary btn-sm" href="{{url('/upload_files/contents/'.$content->link)}}">
+                                            <i class="fa fa-address-card" aria-hidden="true"></i></a>
+                                    @endif
+                                </td>
+                                <td>
+                                    @if( $content->type_id == 1 )
+                                         کتاب
+                                    @elseif( $content->type_id == 2)
+                                         اینفوگرافی
+                                    @elseif( $content->type_id == 3)
+                                        ویدئو
+                                    @elseif( $content->type_id == 4)
+                                        پاورپوینت
+                                    @elseif( $content->type_id == 5)
+                                        صوت
+                                    @elseif( $content->type_id == 6)
+                                        کد
+                                    @elseif( $content->type_id == 7)
+                                        نرم افزار
+                                    @elseif( $content->type_id == 8)
+                                        تقویم
+                                    @else
+                                         فلش کارت
+                                    @endif
+                                </td>
                                 <td>{{ ($key+1) }}</td>
                             </tr>
                         @endforeach

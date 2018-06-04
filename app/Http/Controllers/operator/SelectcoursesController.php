@@ -13,36 +13,27 @@ class SelectcoursesController extends Controller
 {
     public function index()
     {
-        return view('operator.testselectStudentForCreateTerm');
+        $data['users'] = DB::table('users')->where('type', 'Student')->get();
+        return view('operator.testshowStudentForSelectTerm',$data);
     }
-    public function indexShow()
-    {
-        return view('operator.testselectStudentForShowTerm');
-    }
-    public function show(Request $request)
-    {
-        $id = DB::table('users')->where('post_id', $request->post_id)->first()->id;
 
-        return  $this->showById($id);
+    public function create($id)
+    {
+        return view('operator.testcreateTerm')->with(['user_id'=>$id]);
     }
-    public function showById($id)
+    public function show($id)
     {
         $data['students'] = DB::table('students')->where('user_id',$id)->get();
-        return view('operator.showStudentPost_id',$data);
+        if(Student::where('user_id',$id)->count()==0){
+            swal()->error('',' اطلاعاتی ثبت نشده ');
+            return redirect(route('selectTerm.index'));
+        }
+        else
+        return view('operator.testshowTerm',$data);
 
     }
-    public function shows($user_id)
-    {
-        $data['students'] = DB::table('students')->where('user_id', $user_id)->get();
 
-        return view('operator.showStudent', $data);
-    }
-    public function getPost_id(Request $request)
-    {
-        $data=DB::table('users')->where('post_id', $request->post_id)->first()->id;
-        return view('operator.testcreateTerm')->with(array('user_id'=>$data));
 
-    }
     public function store(StudentRequest $request)
     {
         $student = new Student();
@@ -59,24 +50,25 @@ class SelectcoursesController extends Controller
         $student->num_term =$request->num_term;
         $student->user_id =$request->user_id;
         $student->save();
-        return redirect(route('selectCourses.shows',$student->user_id ));
+        swal()->success('',' اطلاعات ترم با موفقیت ثبت شد');
+        return redirect(route('selectTerm.create',$student->user_id ));
             //->with('user_id',$student->user_id);
     }
-    public function delete_create($id)
+    public function delete($id)
     {
         $student = Student::where('id' , $id)->first();
         if($student){
             $student->delete();
-            return redirect()->route('selectCourses.showById' ,$student->user_id );
+            return redirect()->route('selectTerm.show' ,$student->user_id );
 
         }
-        return redirect()->route('selectCourses.showById' ,$student->user_id );
+        return redirect()->route('selectTerm.show' ,$student->user_id );
 
     }
     public function edit($id)
     {
         $student= Student::find($id);
-        return view('operator.editStudent' ,compact('student'));
+        return view('operator.testeditTerm' ,compact('student'));
 
 
     }
@@ -96,7 +88,8 @@ class SelectcoursesController extends Controller
         $student->num_term =$request->num_term;
         $student->user_id =$request->user_id;
         $student->save();
-        return redirect()->route('selectCourses.showById' ,$student->user_id );
+        swal()->success('','  تغییر مورد نظر اعمال شد');
+        return redirect()->route('selectTerm.show' ,$student->user_id );
 
 
     }

@@ -8,7 +8,8 @@ class Student extends Model
 {
     public function assignedcourses()
     {
-        return $this->belongsToMany('App\Assignedcourse' ,'assignedcourse_student','student_id','assignedcourse_id');
+        return $this->belongsToMany('App\Assignedcourse' ,'assignedcourse_student'
+            ,'student_id','assignedcourse_id');
     }
     public function users()
     {

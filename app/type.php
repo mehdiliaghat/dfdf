@@ -9,7 +9,7 @@ class Type extends Model
     public function contents()
     {
 
-       return $this->hasMany('App\Content','content_id');
+       return $this->hasMany('App\Content');
     }
 
 }

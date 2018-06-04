@@ -31,6 +31,7 @@ class ContentController extends Controller
          $content->term=$request->term;
          $content->type_id=$request->type_id;
          $content->save();
+         swal()->success('','   محتوای مورد نظر ثبت شد');
          return redirect(route('content.create'))->with('successMsg', 'user successfully added');
      }
      public function showCourse()
@@ -44,8 +45,6 @@ class ContentController extends Controller
      public function showContent($id)
      {
          $data['contents'] = content::where('assignedcourse_id', $id)->get();
-         dd($data);
-
           return view('operator.testShowContent' ,$data );
 
      }

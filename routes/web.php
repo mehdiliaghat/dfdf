@@ -37,27 +37,37 @@
     Route::delete('assignedcourses/delete/{id}','operator\AssignedcoursesController@delete')->name('assignedcourses.delete');
     Route::get('assignedcourses/edit/{id}','operator\AssignedcoursesController@edit')->name('assignedcourses.edit');
     Route::post('assignedcourses/update/{id}','operator\AssignedcoursesController@update')->name('assignedCoursesUpdate');
-    Route::get('selectCourses/index','operator\SelectcoursesController@index')->name('selectCourses.index');
-    Route::get('selectCourses/student/create','operator\SelectcoursesController@getPost_id')->name('selectCourses.student');
-    Route::post('selectCourses/student/store','operator\SelectcoursesController@store')->name('selectCourses.store');
-    Route::get('selectCourses/student/shows/{user_id}','operator\SelectcoursesController@shows')->name('selectCourses.shows');
 
+    Route::get('selectTerm/index','operator\SelectcoursesController@index')->name('selectTerm.index');
+    Route::get('selectTerm/create/{id}','operator\SelectcoursesController@create')->name('selectTerm.create');
+    Route::post('selectTerm/store','operator\SelectcoursesController@store')->name('selectTerm.store');
+    Route::get('selectTerm/show/{id}','operator\SelectcoursesController@show')->name('selectTerm.show');
+    Route::delete('selectTerm/delete/{id}','operator\SelectcoursesController@delete')->name('selectTerm.delete');
+    Route::get('selectTerm/edit/{id}','operator\SelectcoursesController@edit')->name('selectTerm.edit');
+    Route::post('selectTerm/update/{id}','operator\SelectcoursesController@update')->name('selectTerm.update');
 
-    Route::get('selectCourses/student/indexShow','operator\SelectcoursesController@indexShow')->name('selectCourses.indexShow');
-    Route::post('selectCourses/student/show','operator\SelectcoursesController@show')->name('selectCourses.show');
-    Route::get('selectCourses/student/{id}','operator\SelectcoursesController@showById')->name('selectCourses.showById');
-    Route::delete('studentInfo/delete/{id}','operator\SelectcoursesController@delete_create')->name('studentInfo.delete');
-    Route::get('studentInfo/edit/{id}','operator\SelectcoursesController@edit')->name('studentInfo.edit');
-    Route::post('studentInfo/update/{id}','operator\SelectcoursesController@update')->name('studentInfo.update');
+   // Route::get('selectCourses/student/indexShow','operator\SelectcoursesController@index')->name('selectCourses.index');
+  //  Route::post('selectCourses/student/show','operator\SelectcoursesController@show')->name('selectCourses.show');
+   // Route::get('selectCourses/student/{id}','operator\SelectcoursesController@showById')->name('selectCourses.showById');
+   // Route::delete('studentInfo/delete/{id}','operator\SelectcoursesController@delete_create')->name('studentInfo.delete');
+  //  Route::get('studentInfo/edit/{id}','operator\SelectcoursesController@edit')->name('studentInfo.edit');
+   // Route::post('studentInfo/update/{id}','operator\SelectcoursesController@update')->name('studentInfo.update');
 
     Route::get('selectCourse','operator\SelectCourseStudentController@index')->name('selectCourseIndex');
-    Route::post('selectCourse/select/','operator\SelectCourseStudentController@getPost_id')->name('selectCourse.post_id');
-    Route::get('selectCourse/select/{data}','operator\SelectCourseStudentController@student_id')->name('selectCourse.student_id');
-    Route::post('selectCourse/select/store','operator\SelectCourseStudentController@store')->name('selectCourseStudent.store');
-   // Route::delete('selectCourse/select/delete/{id}/{data}','operator\SelectCourseStudentController@delete')->name('selectCourseStudent.delete');
+    Route::get('selectCourse/term/{id}','operator\SelectCourseStudentController@getTerm_id')->name('selectCourse.getTerm_id');
+    Route::get('selectCourse/{id}','operator\SelectCourseStudentController@term_id')->name('selectCourse.term_id');
+    Route::post('selectCourse/store','operator\SelectCourseStudentController@store')->name('selectCourse.store');
+    Route::delete('selectCourse/delete/{id}/{id2}','operator\SelectCourseStudentController@delete')->name('selectCourse.delete');
+
+
+
+
+
+
     Route::get('listClass','operator\ListProfClassController@index')->name('listClass.index');
     Route::post('listClass/show','operator\ListProfClassController@getPost_id')->name('listClass.getPost_id');
-    Route::get('listClass/show/{id}','operator\ListProfClassController@listStudentClass')->name('listClass.Students');
+    Route::get('listClass/show/{id}/','operator\ListProfClassController@listStudentClass')->name('listClass.Students');
+
     Route::get('content/create','operator\ContentController@create')->name('content.create');
     Route::post('content/store','operator\ContentController@store')->name('content.store');
     Route::get('content/show','operator\ContentController@showCourse')->name('content.showContent');

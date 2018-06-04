@@ -14,7 +14,8 @@ class Assignedcourse extends Model
     public function students()
     {
         return $this->
-        belongsToMany('App\Student' ,'assignedcourse_student','assignedcourse_id','student_id');
+        belongsToMany('App\Student' ,'assignedcourse_student'
+            ,'assignedcourse_id','student_id');
     }
     public function recordscores()
     {

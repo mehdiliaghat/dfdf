@@ -108,5 +108,6 @@
 {{---@include('sweetalert::cdn')--}}
 {{--@include('sweetalert::view')--}}
 @include('sweetalert::view')
+@include('sweetalert::cdn')
 </body>
 </html>
