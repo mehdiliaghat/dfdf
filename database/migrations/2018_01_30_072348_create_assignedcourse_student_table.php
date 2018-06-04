@@ -15,9 +15,9 @@ class CreateAssignedcourseStudentTable extends Migration
     {
         Schema::create('assignedcourse_student', function (Blueprint $table) {
              $table->integer('assignedcourse_id')->unsigned()->index();
-             $table->foreign('assignedcourse_id')->references('id')->on('students')->onDelete('cascade')->onUpdate('cascade');
+             $table->foreign('assignedcourse_id')->references('id')->on('assignedcourses')->onDelete('cascade')->onUpdate('cascade');
              $table->integer('student_id')->unsigned()->index();
-             $table->foreign('student_id')->references('id')->on('assignedcourses')->onDelete('cascade')->onUpdate('cascade');
+             $table->foreign('student_id')->references('id')->on('students')->onDelete('cascade')->onUpdate('cascade');
 
         });
     }
